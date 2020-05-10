@@ -1,0 +1,91 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: Default Aegisub file
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,華康POP1體W7,64,&H00FFFFFF,&H000000FF,&H00A54CF1,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,50,50,38,1
+Style: upside,華康POP1體W7,52,&H00FFFFFF,&H000000FF,&H00A54CF1,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,50,50,50,1
+Style: EDJP,HGHeiseiKakugothictaiW9,64,&H00FFFFFF,&H00FDE2B0,&H00926201,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,50,50,38,1
+Style: EDCH,華康儷粗黑,55,&H00FFFFFF,&H00B8B0FD,&H00926201,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,50,50,38,1
+Style: Default-jp,HGHeiseiKakugothictaiW9,48,&H00FFFFFF,&H00B8B0FD,&H00A54CF1,&H00000000,0,0,0,0,100,100,0,0,1,4,0,2,50,50,15,1
+Style: Default-jp upside,HGHeiseiKakugothictaiW9,40,&H00FFFFFF,&H00B8B0FD,&H00A54CF1,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,50,50,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:16.14,0:00:17.71,Default,,0,0,0,,前辈 早安
+Dialogue: 0,0:00:25.06,0:00:28.50,Default,,0,0,0,,那个是开发部送来的报价书吧
+Dialogue: 0,0:00:30.02,0:00:30.83,Default,,0,0,0,,大概是吧
+Dialogue: 0,0:00:31.43,0:00:33.32,Default,,0,0,0,,前辈你有好好睡觉吗
+Dialogue: 0,0:00:33.79,0:00:36.13,Default,,0,0,0,,又因为放假所以熬夜了吧
+Dialogue: 0,0:00:36.82,0:00:39.41,Default,,0,0,0,,没问题吗? 下午和主要客户的说明会
+Dialogue: 0,0:00:39.77,0:00:43.12,Default,,0,0,0,,就是为了那个资料我才坐首班车过来的
+Dialogue: 0,0:00:43.62,0:00:49.04,Default,,0,0,0,,课长上星期叫我改 改完又说不行
+Dialogue: 0,0:00:49.71,0:00:52.73,Default,,0,0,0,,搞到我现在一个头两个大
+Dialogue: 0,0:00:53.26,0:00:55.26,Default,,0,0,0,,哪里要改? 我来帮忙吧
+Dialogue: 0,0:00:55.46,0:00:57.89,Default,,0,0,0,,没关系 已经改完了
+Dialogue: 0,0:00:58.33,0:01:00.79,Default,,0,0,0,,诶? 那个的负责人...
+Dialogue: 0,0:01:01.50,0:01:03.81,Default,,0,0,0,,啊 他辞职了
+Dialogue: 0,0:01:03.97,0:01:04.83,Default,,0,0,0,,诶?
+Dialogue: 0,0:01:04.88,0:01:06.22,Default,,0,0,0,,真突然啊
+Dialogue: 0,0:01:15.04,0:01:18.43,Default,,0,0,0,,前辈 没问题的 不是还有我在吗
+Dialogue: 0,0:01:18.81,0:01:23.28,Default,,0,0,0,,来 报价书我来看吧 前辈去洗个脸吧
+Dialogue: 0,0:01:23.48,0:01:27.25,Default,,0,0,0,,喔 谢啦 果然最需要的还是可靠的后辈
+Dialogue: 0,0:01:27.98,0:01:31.12,Default,,0,0,0,,唉啊 您在做什么啊 真是的
+Dialogue: 0,0:01:51.30,0:01:53.26,Default,,0,0,0,,前辈 一起吃晚餐吧?
+Dialogue: 0,0:01:53.92,0:01:58.80,Default,,0,0,0,,这附近有间想去的餐厅 可是一个人不太好意思去
+Dialogue: 0,0:02:01.20,0:02:05.75,Default,,0,0,0,,啊 抱歉 部长会议的资料 明天一上班就要整理给他
+Dialogue: 0,0:02:06.33,0:02:08.06,Default,,0,0,0,,该回去工作了
+Dialogue: 0,0:02:09.02,0:02:13.30,Default,,0,0,0,,这样啊 前辈还真喜欢工作呢
+Dialogue: 0,0:02:13.78,0:02:15.87,Default,,0,0,0,,明天见啦 辛苦了
+Dialogue: 0,0:02:17.38,0:02:21.20,Default,,0,0,0,,又这样一个人拚命的话 身体会操坏的喔
+Dialogue: 0,0:02:23.19,0:02:27.51,Default,,0,0,0,,这样的话 如果有能干的后辈来帮忙的话
+Dialogue: 0,0:02:27.70,0:02:29.37,Default,,0,0,0,,就帮大忙了
+Dialogue: 0,0:02:31.71,0:02:33.96,Default,,0,0,0,,真拿您没办法呢
+Dialogue: 0,0:02:35.09,0:02:37.35,Default,,0,0,0,,啊 等等 我来开门
+Dialogue: 0,0:02:40.85,0:02:42.15,Default,,0,0,0,,前辈 请进
+Dialogue: 0,0:02:58.23,0:03:02.27,Default,,0,0,0,,啊咧? 诶? 画面自己...
+Dialogue: 0,0:03:03.84,0:03:06.74,Default,,0,0,0,,前辈 电脑坏掉了
+Dialogue: 0,0:03:37.67,0:03:40.59,EDJP,,0,0,0,,{\K25}ド{\K18}キ{\K22}ド{\K22}キ{\K35}　{\K56}胸{\K8}が{\K65}騒{\K48}ぐ
+Dialogue: 0,0:03:42.16,0:03:45.23,EDJP,,0,0,0,,{\K38}今{\K20}に{\K28}も{\K27}　{\K57}弾{\K12}け{\K27}そ{\K38}う{\K60}に
+Dialogue: 0,0:03:46.66,0:03:49.53,EDJP,,0,0,0,,{\K27}つ{\K10}ま{\K61}先{\K22}　{\K13}二{\K41}回{\K19}鳴{\K23}ら{\K17}し{\K18}た{\K41}ら
+Dialogue: 0,0:03:50.96,0:03:56.70,EDJP,,0,0,0,,{\K45}ド{\K34}ア{\K60}を{\K53}開{\K22}く{\K58}の{\K14}　{\K57}風{\K20}を{\K23}吹{\K12}い{\K38}て{\K55}走{\K20}り{\K16}出{\K52}す
+Dialogue: 0,0:03:56.74,0:03:59.50,EDJP,,0,0,0,,{\K47}坂{\K34}の{\K22}向{\K13}こ{\K25}う{\K20}で{\K26}待{\K9}っ{\K20}て{\K17}い{\K47}る
+Dialogue: 0,0:03:59.77,0:04:05.44,EDJP,,0,0,0,,{\K28}未{\K57}開{\K38}封{\K36}の{\K31}今{\K27}日{\K35}を{\K38}抱{\K23}き{\K90}し{\K56}め{\K114}て
+Dialogue: 0,0:04:05.94,0:04:08.70,EDJP,,0,0,0,,{\K63}ル{\K16}ラ{\K39}ラ{\K19}　{\K55}両{\K20}手{\K64}に
+Dialogue: 0,0:04:08.78,0:04:11.86,EDJP,,0,0,0,,{\K20}一{\K33}杯{\K21}の{\K37}思{\K19}い{\K23}が{\K95}溢{\K35}れ{\K15}て
+Dialogue: 0,0:04:11.87,0:04:17.60,EDJP,,0,0,0,,{\K88}空{\K33}を{\K43}染{\K51}め{\K22}た{\K35}ら{\K20}　{\K21}あ{\K35}な{\K37}た{\K38}に{\K55}届{\K18}く{\K23}か{\K54}な
+Dialogue: 0,0:04:17.95,0:04:22.99,EDJP,,0,0,0,,{\K58}ル{\K21}ラ{\K36}ラ{\K21}　{\K19}鼓{\K54}動{\K43}が{\K31}　{\K30}刻{\K26}ん{\K16}で{\K4}い{\K20}く{\K25}リ{\K28}ズ{\K23}ム{\K68}を
+Dialogue: 0,0:04:23.23,0:04:26.03,EDJP,,0,0,0,,{\K70}響{\K51}か{\K30}せ{\K129}て
+Dialogue: 0,0:04:26.42,0:04:29.56,EDJP,,0,0,0,,{\K18}揺{\K21}れ{\K32}る{\K40}乙{\K21}女{\K20}の{\K16}た{\K20}わ{\K29}わ{\K7}　{\K33}わ{\K23}わ{\K50}わ
+Dialogue: 0,0:03:24.69,0:03:35.50,EDJP,,0,0,0,,
+Dialogue: 0,0:03:37.67,0:03:40.59,EDCH,,0,0,0,,心跳加速 心弦振荡不已
+Dialogue: 0,0:03:42.16,0:03:45.23,EDCH,,0,0,0,,现在也是 感觉快要断了
+Dialogue: 0,0:03:46.66,0:03:49.53,EDCH,,0,0,0,,用手指头 轻轻撩拨两下
+Dialogue: 0,0:03:50.96,0:03:56.70,EDCH,,0,0,0,,打开门 吹着风在风中行走
+Dialogue: 0,0:03:56.74,0:03:59.50,EDCH,,0,0,0,,在坡道的对面等待着你
+Dialogue: 0,0:03:59.77,0:04:05.44,EDCH,,0,0,0,,紧紧抱着全新的今天
+Dialogue: 0,0:04:05.94,0:04:08.70,EDCH,,0,0,0,,Rulala 双手中
+Dialogue: 0,0:04:08.78,0:04:11.86,EDCH,,0,0,0,,所盛载的思念已满溢而出
+Dialogue: 0,0:04:11.87,0:04:17.60,EDCH,,0,0,0,,如果将其染在天空上 能传达给你吗?
+Dialogue: 0,0:04:17.95,0:04:22.99,EDCH,,0,0,0,,Rulala 由悸动所刻划出的旋律
+Dialogue: 0,0:04:23.23,0:04:26.03,EDCH,,0,0,0,,就此传开
+Dialogue: 0,0:04:26.42,0:04:29.56,EDCH,,0,0,0,,少女那不断摇晃的弹弹弹弹
+Dialogue: 0,0:03:06.74,0:03:08.74,Default,,0,0,0,,
+

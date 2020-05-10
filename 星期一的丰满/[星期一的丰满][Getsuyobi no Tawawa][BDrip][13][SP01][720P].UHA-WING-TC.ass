@@ -1,0 +1,100 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: effect-3,華康童童體,45,&H006C4DD4,&H000000FF,&H00C735FD,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: effect,華康中圓體,45,&H00817B78,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: title,華康相撲體,60,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: warring,華康中圓體,40,&H00FFFFFF,&H000000FF,&H00D0B064,&H00000000,0,0,0,0,100,100,0,0,1,6,0,8,10,10,10,1
+Style: staff,華康中圓體,40,&H00FFFFFF,&H000000FF,&H00953732,&H00000000,0,0,0,0,100,100,0,0,1,6,0,8,10,10,10,1
+Style: EDCH,華康儷粗黑,55,&H00FFFFFF,&H00B8B0FD,&H00926201,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,50,50,38,1
+Style: EDJP,HGHeiseiKakugothictaiW9,64,&H00FFFFFF,&H00FDE2B0,&H00926201,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,50,50,38,1
+Style: upside,華康POP1體W7,52,&H00FFFFFF,&H000000FF,&H00A54CF1,&H00000000,0,0,0,0,100,100,0,0,1,4,0,8,50,50,38,1
+Style: Default-jp,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,0,2,3,2,20,20,20,1
+Style: Default,Microsoft YaHei,75,&H00FFFFFF,&HF0000000,&H00721FD7,&HF0000000,-1,0,0,0,100,100,1,0,1,4,3,2,11,11,30,134
+Style: op,Microsoft YaHei,56,&H00FFFFFF,&H00C18D18,&H00CF9004,&H00F1D850,-1,0,0,0,100,100,0,0,1,4,0,5,11,11,11,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:24.08,0:00:30.05,Default,NTP,0,0,0,,{\an5\fs60\shad0\bord0\fad(0,1000)\c&H721FD7&\pos(213.932,48.8)}悠哈璃羽{\c&HFFFFFF&}字幕社
+Dialogue: 0,0:00:24.08,0:00:30.05,Default,,0,0,0,,{\fs55.001\fsp4\shad0\bord0\c&H721FD7&\pos(397.8,1065)}翻譯:空影  {\c&HFFFFFF&}後期：暴暴  {\c&H721FD7&}壓制：CZ
+Dialogue: 0,0:00:24.08,0:00:30.05,Default,NTP,0,0,0,,{\fs60\shad0\bord0\c&H721FD7&\pos(1506,633)}雖然粗心大意{\c&HFFFFFF&}但很受人{\c&H721FD7&}\N喜歡{\c&HFFFFFF&}的可愛{\c&H721FD7&}後輩
+Dialogue: 0,0:00:59.49,0:01:01.45,Default,NTP,0,0,0,,我想…
+Dialogue: 0,0:01:02.41,0:01:05.79,Default,NTP,0,0,0,,算了 還只是星期一
+Dialogue: 0,0:01:07.38,0:01:08.59,Default,NTP,0,0,0,,不過想起來
+Dialogue: 0,0:01:09.63,0:01:12.17,Default,NTP,0,0,0,,今天要和前輩外出
+Dialogue: 0,0:01:09.09,0:01:14.09,Default,NTP,0,0,0,,{\fad(500,0)\shad0\bord0\c&H2D2D2D&\frz8.051\pos(621,624)}與前輩外出
+Dialogue: 0,0:01:09.09,0:01:14.13,Default,NTP,0,0,0,,{\fad(500,0)\shad0\bord0\c&H2D2D2D&\frz8.051\pos(1326,651)}16:00~ 會議
+Dialogue: 0,0:01:15.63,0:01:17.39,Default,NTP,0,0,0,,已經這個時間了嗎
+Dialogue: 0,0:01:22.35,0:01:23.52,Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:01:24.27,0:01:26.39,Default,NTP,0,0,0,,奇怪 發圈去哪裏了
+Dialogue: 0,0:01:27.06,0:01:29.31,Default,NTP,0,0,0,,咦 去哪裏…
+Dialogue: 0,0:01:45.08,0:01:47.00,Default,NTP,0,0,0,,衣服是不是縮水了
+Dialogue: 0,0:01:47.79,0:01:48.54,Default,NTP,0,0,0,,垃圾回收
+Dialogue: 0,0:01:48.75,0:01:50.25,Default,NTP,0,0,0,,廚房垃圾
+Dialogue: 0,0:01:51.75,0:01:53.09,Default,NTP,0,0,0,,我出門了
+Dialogue: 0,0:02:07.52,0:02:08.60,Default,NTP,0,0,0,,奇怪了
+Dialogue: 0,0:02:09.69,0:02:11.36,Default,NTP,0,0,0,,早上好 前輩
+Dialogue: 0,0:02:11.82,0:02:12.90,Default,NTP,0,0,0,,早上好
+Dialogue: 0,0:02:13.61,0:02:14.86,Default,NTP,0,0,0,,我來開門吧
+Dialogue: 0,0:02:17.74,0:02:19.57,Default,NTP,0,0,0,,這周也一起加油吧
+Dialogue: 0,0:02:20.07,0:02:22.95,Default,NTP,0,0,0,,果然靠得住的後輩就是不一樣…
+Dialogue: 0,0:02:24.91,0:02:25.66,Default,NTP,0,0,0,,請進
+Dialogue: 0,0:02:26.58,0:02:29.17,Default,NTP,0,0,0,,嘛 也挺不錯啊
+Dialogue: 0,0:02:30.00,0:02:30.75,Default,NTP,0,0,0,,黑色的
+Dialogue: 0,0:02:30.88,0:02:31.38,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:02:37.97,0:02:40.47,Default,NTP,0,0,0,,我已經嫁不出去了
+Dialogue: 0,0:02:40.97,0:02:41.89,Default,NTP,0,0,0,,不也挺好嗎
+Dialogue: 0,0:02:42.22,0:02:45.10,Default,NTP,0,0,0,,如果你這麼快就因為結婚而離職的話我可是會很困擾的
+Dialogue: 0,0:02:46.14,0:02:48.18,Default,NTP,0,0,0,,啊 是嗎是嗎
+Dialogue: 0,0:02:48.56,0:02:50.40,Default,NTP,0,0,0,,靠得住的後輩就是辛苦
+Dialogue: 0,0:02:50.77,0:02:51.81,Default,NTP,0,0,0,,是的是的
+Dialogue: 0,0:02:52.61,0:02:55.65,Default,NTP,0,0,0,,如果我遲遲嫁不出去的話你可要負起責任來
+Dialogue: 0,0:02:55.86,0:02:56.69,Default,NTP,0,0,0,,好的好的
+Dialogue: 0,0:02:58.11,0:02:58.49,Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:03:02.74,0:03:08.71,Default,NTP,0,0,0,,{\an5\fs60\shad0\bord0\fad(0,1000)\c&HDDA20E&\pos(925.332,452)}悠{\c&HC5870B&}哈{\c&HDDA110&}璃{\c&HE9C588&}羽{\c&HCA890D&}字{\c&HDBA20E&}幕{\c&HC48411&}社
+Dialogue: 0,0:03:08.71,0:03:08.71,EDJP,,0,0,0,,
+Dialogue: 0,0:03:09.40,0:03:12.32,EDJP,,0,0,0,,{\K25}ド{\K18}キ{\K22}ド{\K22}キ{\K35}　{\K56}胸{\K8}が{\K65}騒{\K48}ぐ
+Dialogue: 0,0:03:13.90,0:03:16.99,EDJP,,0,0,0,,{\K38}今{\K20}に{\K28}も{\K27}　{\K57}弾{\K12}け{\K27}そ{\K38}う{\K60}に
+Dialogue: 0,0:03:18.41,0:03:21.28,EDJP,,0,0,0,,{\K27}つ{\K10}ま{\K61}先{\K22}　{\K13}二{\K41}回{\K19}鳴{\K23}ら{\K17}し{\K18}た{\K41}ら
+Dialogue: 0,0:03:22.70,0:03:28.46,EDJP,,0,0,0,,{\K45}ド{\K34}ア{\K60}を{\K53}開{\K22}く{\K58}の{\K14}　{\K57}風{\K20}を{\K23}吹{\K12}い{\K38}て{\K55}走{\K20}り{\K16}出{\K52}す
+Dialogue: 0,0:03:28.50,0:03:31.25,EDJP,,0,0,0,,{\K47}坂{\K34}の{\K22}向{\K13}こ{\K25}う{\K20}で{\K26}待{\K9}っ{\K20}て{\K17}い{\K47}る
+Dialogue: 0,0:03:31.50,0:03:37.17,EDJP,,0,0,0,,{\K28}未{\K57}開{\K38}封{\K36}の{\K31}今{\K27}日{\K35}を{\K38}抱{\K23}き{\K90}し{\K56}め{\K114}て
+Dialogue: 0,0:03:37.67,0:03:40.43,EDJP,,0,0,0,,{\K63}ル{\K16}ラ{\K39}ラ{\K19}　{\K55}両{\K20}手{\K64}に
+Dialogue: 0,0:03:40.51,0:03:43.60,EDJP,,0,0,0,,{\K20}一{\K33}杯{\K21}の{\K37}思{\K19}い{\K23}が{\K95}溢{\K35}れ{\K15}て
+Dialogue: 0,0:03:43.60,0:03:49.35,EDJP,,0,0,0,,{\K88}空{\K33}を{\K43}染{\K51}め{\K22}た{\K35}ら{\K20}　{\K21}あ{\K35}な{\K37}た{\K38}に{\K55}届{\K18}く{\K23}か{\K54}な
+Dialogue: 0,0:03:49.69,0:03:54.73,EDJP,,0,0,0,,{\K58}ル{\K21}ラ{\K36}ラ{\K21}　{\K19}鼓{\K54}動{\K43}が{\K31}　{\K30}刻{\K26}ん{\K16}で{\K4}い{\K20}く{\K25}リ{\K28}ズ{\K23}ム{\K68}を
+Dialogue: 0,0:03:54.98,0:03:57.78,EDJP,,0,0,0,,{\K70}響{\K51}か{\K30}せ{\K129}て
+Dialogue: 0,0:03:58.15,0:04:01.28,EDJP,,0,0,0,,{\K18}揺{\K21}れ{\K32}る{\K40}乙{\K21}女{\K20}の{\K16}た{\K20}わ{\K29}わ{\K7}　{\K33}わ{\K23}わ{\K50}わ
+Dialogue: 0,0:03:09.40,0:03:12.32,EDCH,,0,0,0,,心跳加速 心弦振盪不已
+Dialogue: 0,0:03:13.90,0:03:16.99,EDCH,,0,0,0,,現在也是 感覺快要斷了
+Dialogue: 0,0:03:18.41,0:03:21.28,EDCH,,0,0,0,,用手指頭 輕輕撩撥兩下
+Dialogue: 0,0:03:22.70,0:03:28.46,EDCH,,0,0,0,,打開門 吹著風在風中行走
+Dialogue: 0,0:03:28.50,0:03:31.25,EDCH,,0,0,0,,在坡道的對面等待著你
+Dialogue: 0,0:03:31.50,0:03:37.17,EDCH,,0,0,0,,緊緊抱著全新的今天
+Dialogue: 0,0:03:37.67,0:03:40.43,EDCH,,0,0,0,,Rulala 雙手中
+Dialogue: 0,0:03:40.51,0:03:43.60,EDCH,,0,0,0,,所盛載的思念已滿溢而出
+Dialogue: 0,0:03:43.60,0:03:49.35,EDCH,,0,0,0,,如果將其染在天空上 能傳達給你嗎?
+Dialogue: 0,0:03:49.69,0:03:54.73,EDCH,,0,0,0,,Rulala 由悸動所刻劃出的旋律
+Dialogue: 0,0:03:54.98,0:03:57.78,EDCH,,0,0,0,,就此傳開
+Dialogue: 0,0:03:58.15,0:04:01.28,EDCH,,0,0,0,,少女那不斷搖晃的彈彈彈彈
+Dialogue: 0,0:00:00.60,0:00:00.60,Default,NTP,0,0,0,,
+

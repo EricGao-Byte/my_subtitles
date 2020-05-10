@@ -1,0 +1,867 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 720
+PlayResY: 404
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Titles,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Titles_L,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
+Style: Character_L,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,4,10,10,10,1
+Style: Character_B,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Author,Microsoft YaHei,20,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,1,10,10,10,1
+Style: Subtitle,Microsoft YaHei,26,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:48.49,0:03:50.49,Subtitle,,0,0,0,,完美无瑕\N{\fs20}Magnificent.{\r}
+Dialogue: 0,0:03:50.52,0:03:52.69,Subtitle,,0,0,0,,看起来像是新锻造的\N{\fs20}Looks fresh-forged.{\r}
+Dialogue: 0,0:03:52.72,0:03:54.12,Subtitle,,0,0,0,,是的\N{\fs20}It is.{\r}
+Dialogue: 0,0:03:55.49,0:03:57.26,Subtitle,,0,0,0,,自从瓦雷利亚的末日浩劫之后\N{\fs20}No one's made a Valyrian steel sword{\r}
+Dialogue: 0,0:03:57.29,0:03:58.86,Subtitle,,0,0,0,,就没人锻造瓦雷利亚钢了\N{\fs20}since the Doom of Valyria.{\r}
+Dialogue: 0,0:03:58.90,0:04:00.60,Subtitle,,0,0,0,,这世上仍有三位铁匠\N{\fs20}There are three living smiths{\r}
+Dialogue: 0,0:04:00.63,0:04:02.80,Subtitle,,0,0,0,,知道锻造瓦雷利亚钢的方法\N{\fs20}who know how to rework Valyrian steel.{\r}
+Dialogue: 0,0:04:02.83,0:04:05.40,Subtitle,,0,0,0,,而我将其中最出色的那位\N{\fs20}The finest of them was in Volantis.{\r}
+Dialogue: 0,0:04:05.44,0:04:08.44,Subtitle,,0,0,0,,从瓦兰提斯请来了君临\N{\fs20}Came here to King's Landing at my invitation.{\r}
+Dialogue: 0,0:04:08.47,0:04:10.67,Subtitle,,0,0,0,,这么多瓦雷利亚钢你是怎么弄到手的\N{\fs20}Where did you get this much Valyrian steel?{\r}
+Dialogue: 0,0:04:10.71,0:04:13.44,Subtitle,,0,0,0,,从已经不需要它们的人那里\N{\fs20}From someone who no longer had need of it.{\r}
+Dialogue: 0,0:04:15.65,0:04:18.75,Subtitle,,0,0,0,,你一直都渴望我们家族也能有一把这样的剑\N{\fs20}You've wanted one of these in the family for a long time.{\r}
+Dialogue: 0,0:04:18.78,0:04:20.68,Subtitle,,0,0,0,,- 而我们现在有两把了 - 两把？\N{\fs20}- And now we have two. - Two?{\r}
+Dialogue: 0,0:04:20.72,0:04:23.25,Subtitle,,0,0,0,,原来的那把剑真是大的出奇\N{\fs20}The original weapon was absurdly large.{\r}
+Dialogue: 0,0:04:23.29,0:04:25.66,Subtitle,,0,0,0,,锻造两把剑还绰绰有余\N{\fs20}Plenty of steel for two swords.{\r}
+Dialogue: 0,0:04:25.69,0:04:28.73,Subtitle,,0,0,0,,谢谢 真是莫大的荣幸\N{\fs20}Well, thank you. It's glorious.{\r}
+Dialogue: 0,0:04:34.67,0:04:36.60,Subtitle,,0,0,0,,你的左手得多练练\N{\fs20}You'll have to train your left hand.{\r}
+Dialogue: 0,0:04:36.63,0:04:39.14,Subtitle,,0,0,0,,任何一个像样的剑士都不止会用一只手\N{\fs20}Any decent swordsman knows how to use both hands.{\r}
+Dialogue: 0,0:04:39.17,0:04:41.20,Subtitle,,0,0,0,,你永远都不可能像以前一样厉害了\N{\fs20}You'll never be as good.{\r}
+Dialogue: 0,0:04:41.24,0:04:42.94,Subtitle,,0,0,0,,确实\N{\fs20}No.{\r}
+Dialogue: 0,0:04:42.97,0:04:44.73,Subtitle,,0,0,0,,不过只要我比其他人都强\N{\fs20}But as long as I'm better than everyone else,{\r}
+Dialogue: 0,0:04:44.74,0:04:46.41,Subtitle,,0,0,0,,那就够了\N{\fs20}I suppose it doesn't matter.{\r}
+Dialogue: 0,0:04:46.44,0:04:49.65,Subtitle,,0,0,0,,你只有一手 已经不能再当御林铁卫了\N{\fs20}You can't serve in the Kingsguard with one hand.{\r}
+Dialogue: 0,0:04:49.68,0:04:52.02,Subtitle,,0,0,0,,哪个条例规定的？ 我可以 而且我一定要当\N{\fs20}Where's that written? I can and I will.{\r}
+Dialogue: 0,0:04:52.05,0:04:53.22,Subtitle,,0,0,0,,御林铁卫宣誓终身效忠\N{\fs20}The Kingsguard oath is for life.{\r}
+Dialogue: 0,0:04:53.25,0:04:55.42,Subtitle,,0,0,0,,战争已结束 国王现在安全了\N{\fs20}The war is over. The king is safe.{\r}
+Dialogue: 0,0:04:55.45,0:04:57.15,Subtitle,,0,0,0,,国王永远都不安全\N{\fs20}The king is never safe.{\r}
+Dialogue: 0,0:04:57.19,0:04:59.69,Subtitle,,0,0,0,,光是这座城里就有多少人期待看到他的头被挑在枪尖上？\N{\fs20}How many people in this city alone would love to see his head on a pike?{\r}
+Dialogue: 0,0:04:59.72,0:05:02.16,Subtitle,,0,0,0,,你被关的时候也有别的铁卫保护国王\N{\fs20}Other knights protected the king while you were a prisoner.{\r}
+Dialogue: 0,0:05:02.19,0:05:05.09,Subtitle,,0,0,0,,你回家以后他们也将继续执行这个任务\N{\fs20}They will continue to do so when you go home.{\r}
+Dialogue: 0,0:05:05.13,0:05:08.60,Subtitle,,0,0,0,,- 家？ - 你将回去凯岩城\N{\fs20}- Home? - You'll return to Casterly Rock{\r}
+Dialogue: 0,0:05:08.63,0:05:10.90,Subtitle,,0,0,0,,接替我的统治\N{\fs20}and rule in my stead.{\r}
+Dialogue: 0,0:05:10.94,0:05:13.10,Subtitle,,0,0,0,,你才是凯岩城领主\N{\fs20}You are the Lord of Casterly Rock.{\r}
+Dialogue: 0,0:05:14.71,0:05:17.77,Subtitle,,0,0,0,,我是国王之手 我属于这儿\N{\fs20}I am the King's Hand. My place is here.{\r}
+Dialogue: 0,0:05:17.81,0:05:21.34,Subtitle,,0,0,0,,这辈子我已经不打算再回凯岩城了\N{\fs20}I don't expect to see the Rock again before I die.{\r}
+Dialogue: 0,0:05:21.38,0:05:23.91,Subtitle,,0,0,0,,你知道他们是怎么叫我的？\N{\fs20}You know what they call me?{\r}
+Dialogue: 0,0:05:23.95,0:05:26.22,Subtitle,,0,0,0,,弑君者 背誓者\N{\fs20}Kingslayer. Oathbreaker.{\r}
+Dialogue: 0,0:05:26.25,0:05:27.88,Subtitle,,0,0,0,,毫无荣誉感的人\N{\fs20}Man without honor.{\r}
+Dialogue: 0,0:05:27.92,0:05:30.55,Subtitle,,0,0,0,,现在你又要我再次打破一个神圣的誓言\N{\fs20}Now you want me to break another sacred vow.{\r}
+Dialogue: 0,0:05:30.59,0:05:33.16,Subtitle,,0,0,0,,你不需要打破任何誓言\N{\fs20}You won't be breaking anything.{\r}
+Dialogue: 0,0:05:33.19,0:05:36.23,Subtitle,,0,0,0,,御林铁卫的替换早有先例\N{\fs20}There is a precedent to relieve a Kingsguard of his duties.{\r}
+Dialogue: 0,0:05:36.26,0:05:39.33,Subtitle,,0,0,0,,国王将会行使这项特权\N{\fs20}The king will exercise that prerogative.{\r}
+Dialogue: 0,0:05:39.40,0:05:41.93,Subtitle,,0,0,0,,- 不 - 不？\N{\fs20}- No. - No?{\r}
+Dialogue: 0,0:05:41.97,0:05:43.77,Subtitle,,0,0,0,,不\N{\fs20}No.{\r}
+Dialogue: 0,0:05:45.14,0:05:47.15,Subtitle,,0,0,0,,我想我不是在征求你的意见\N{\fs20}I don't believe I asked you a question.{\r}
+Dialogue: 0,0:05:47.15,0:05:47.98,Subtitle,,0,0,0,,这就是我的回答\N{\fs20}There's my answer.{\r}
+Dialogue: 0,0:05:48.00,0:05:50.00,Subtitle,,0,0,0,,你要是觉得你那些该死的荣誉比——\N{\fs20}If you think your bloody honor comes before--{\r}
+Dialogue: 0,0:05:50.07,0:05:52.11,Subtitle,,0,0,0,,我那些该死的荣誉早已无法挽回\N{\fs20}My bloody honor is beyond repair,{\r}
+Dialogue: 0,0:05:52.14,0:05:54.78,Subtitle,,0,0,0,,但我的答案依然是 不 我不想要凯岩城\N{\fs20}but my answer is still no. I don't want Casterly Rock.{\r}
+Dialogue: 0,0:05:54.81,0:05:56.08,Subtitle,,0,0,0,,我不想要妻子 我不想要孩子\N{\fs20}I don't want a wife. I don't want children.{\r}
+Dialogue: 0,0:05:56.11,0:05:58.68,Subtitle,,0,0,0,,你要什么\N{\fs20}What do you want?{\r}
+Dialogue: 0,0:05:58.72,0:06:01.32,Subtitle,,0,0,0,,不如来顿晚餐\N{\fs20}Supper would be nice.{\r}
+Dialogue: 0,0:06:02.65,0:06:05.72,Subtitle,,0,0,0,,四十年了 我一直都在试着教你\N{\fs20}For 40 years I've tried to teach you.{\r}
+Dialogue: 0,0:06:05.76,0:06:07.99,Subtitle,,0,0,0,,如果你至今都没有开窍 那你永远都不会了\N{\fs20}If you haven't learned by now, you never will.{\r}
+Dialogue: 0,0:06:09.06,0:06:10.16,Subtitle,,0,0,0,,走吧\N{\fs20}Go.{\r}
+Dialogue: 0,0:06:10.19,0:06:12.16,Subtitle,,0,0,0,,如果当个光荣的侍卫\N{\fs20}If serving as a glorified bodyguard{\r}
+Dialogue: 0,0:06:12.20,0:06:14.86,Subtitle,,0,0,0,,就是你的全部野心了 那就去服务吧\N{\fs20}is the sum of your ambition, go serve.{\r}
+Dialogue: 0,0:06:14.90,0:06:17.57,Subtitle,,0,0,0,,我猜你要我把剑还给你\N{\fs20}I suppose you want the sword back.{\r}
+Dialogue: 0,0:06:17.60,0:06:19.77,Subtitle,,0,0,0,,留着吧\N{\fs20}Keep it.{\r}
+Dialogue: 0,0:06:19.80,0:06:21.64,Subtitle,,0,0,0,,对于一个不需要家庭的单手男人来说\N{\fs20}A one-handed man with no family needs{\r}
+Dialogue: 0,0:06:21.66,0:06:23.24,Subtitle,,0,0,0,,这就是他能得到的最大帮助了\N{\fs20}all the help he can get.{\r}
+Dialogue: 0,0:06:50.90,0:06:53.54,Subtitle,,0,0,0,,就算是干山羊也得好几个多恩人一起上吧？\N{\fs20}How many Dornishmen does it take to fuck a goat?{\r}
+Dialogue: 0,0:06:53.57,0:06:55.61,Subtitle,,0,0,0,,别说了\N{\fs20}Please don't.{\r}
+Dialogue: 0,0:06:55.64,0:06:58.74,Subtitle,,0,0,0,,要我说 见远程而来的人\N{\fs20}Seems to me the smart place{\r}
+Dialogue: 0,0:06:58.78,0:07:00.71,Subtitle,,0,0,0,,最好的地方应该是酒馆\N{\fs20}to meet travelers is in a tavern.{\r}
+Dialogue: 0,0:07:00.74,0:07:02.58,Subtitle,,0,0,0,,这样的话 要是一方迟到了\N{\fs20}That way, one party is late,{\r}
+Dialogue: 0,0:07:02.61,0:07:05.01,Subtitle,,0,0,0,,另一方还能在里面喝点麦芽酒\N{\fs20}the other party can drink some ale inside.{\r}
+Dialogue: 0,0:07:05.05,0:07:06.75,Subtitle,,0,0,0,,我们等的可是多恩亲王\N{\fs20}This is the Prince of Dorne we're waiting for,{\r}
+Dialogue: 0,0:07:06.78,0:07:09.19,Subtitle,,0,0,0,,又不是你的佣兵朋友\N{\fs20}not one of your sellsword friends.{\r}
+Dialogue: 0,0:07:09.22,0:07:12.42,Subtitle,,0,0,0,,要是他真他妈的这么重要 干嘛要你来接见他？\N{\fs20}If he's so damned important, how come they sent you to meet him?{\r}
+Dialogue: 0,0:07:14.76,0:07:17.49,Subtitle,,0,0,0,,多恩的马泰尔家族和凯岩城的兰尼斯特家族\N{\fs20}There's bad blood between the Martells of Dorne{\r}
+Dialogue: 0,0:07:17.53,0:07:20.16,Subtitle,,0,0,0,,之间有多年的血仇\N{\fs20}and the Lannisters of Casterly Rock. Has been for years.{\r}
+Dialogue: 0,0:07:20.20,0:07:22.43,Subtitle,,0,0,0,,所以万一多恩的马泰尔家\N{\fs20}And just in case the Martells of Dorne{\r}
+Dialogue: 0,0:07:22.47,0:07:24.40,Subtitle,,0,0,0,,想要洒点兰尼斯特家的血的话\N{\fs20}are looking to spill some Lannister blood,{\r}
+Dialogue: 0,0:07:24.44,0:07:26.84,Subtitle,,0,0,0,,- 最好是你的 恩？ - 没必要挖苦我\N{\fs20}- it may as well be yours, eh? - No need for cynicism.{\r}
+Dialogue: 0,0:07:26.87,0:07:28.36,Subtitle,,0,0,0,,我不巧是个很有手腕的外交官罢了\N{\fs20}I happen to be an accomplished diplomat.{\r}
+Dialogue: 0,0:07:29.61,0:07:32.48,Subtitle,,0,0,0,,他们来了\N{\fs20}here we are.{\r}
+Dialogue: 0,0:07:35.28,0:07:37.41,Subtitle,,0,0,0,,能看见家徽么？\N{\fs20}Can you read the sigils?{\r}
+Dialogue: 0,0:07:39.38,0:07:40.75,Subtitle,,0,0,0,,几个黄色的蛋？\N{\fs20}Yellow balls?{\r}
+Dialogue: 0,0:07:40.78,0:07:42.49,Subtitle,,0,0,0,,紫色底上有黄色的柠檬\N{\fs20}Wild lemons on a purple field,{\r}
+Dialogue: 0,0:07:42.52,0:07:44.82,Subtitle,,0,0,0,,柠檬林的达特家族\N{\fs20}House Dalt of Lemonwood.{\r}
+Dialogue: 0,0:07:44.86,0:07:49.26,Subtitle,,0,0,0,,一只抓着婴孩的秃鹫 布莱蒙家族\N{\fs20}A vulture grasping a baby in its talons, House Blackmont.{\r}
+Dialogue: 0,0:07:49.29,0:07:52.16,Subtitle,,0,0,0,,一个头戴王冠的骷髅 曼伍迪家族\N{\fs20}A crowned skull, the Manwoodys of Kingsgrave.{\r}
+Dialogue: 0,0:07:52.20,0:07:53.93,Subtitle,,0,0,0,,你对多恩家族了如指掌啊\N{\fs20}Boy knows his Dornish Houses.{\r}
+Dialogue: 0,0:07:53.96,0:07:55.50,Subtitle,,0,0,0,,我也需要个家徽\N{\fs20}I need a sigil.{\r}
+Dialogue: 0,0:07:55.53,0:07:59.10,Subtitle,,0,0,0,,还有马泰尔家族 家徽是长枪贯日？\N{\fs20}And House Martell, a red sun pierced by a spear?{\r}
+Dialogue: 0,0:07:59.14,0:08:00.60,Subtitle,,0,0,0,,我没看见 大人\N{\fs20}I don't see it, my lord.{\r}
+Dialogue: 0,0:08:04.44,0:08:05.38,Subtitle,,0,0,0,,幸会 大人们\N{\fs20}Well met, my lords.{\r}
+Dialogue: 0,0:08:05.41,0:08:07.77,Subtitle,,0,0,0,,乔佛里陛下欢迎您们的到来\N{\fs20}His Grace King Joffrey welcomes you in his name.{\r}
+Dialogue: 0,0:08:08.21,0:08:11.15,Subtitle,,0,0,0,,同时我也替我的父亲大人 国王之手 致以深切的问候\N{\fs20}My lord father, the King's Hand, sends his greetings as well.{\r}
+Dialogue: 0,0:08:11.18,0:08:13.42,Subtitle,,0,0,0,,我是财政大臣\N{\fs20}I am Tyrion Lannister of Casterly Rock,{\r}
+Dialogue: 0,0:08:13.45,0:08:16.19,Subtitle,,0,0,0,,凯岩城的提利昂·兰尼斯特\N{\fs20}Master of Coin.{\r}
+Dialogue: 0,0:08:18.89,0:08:19.54,Subtitle,,0,0,0,,请原谅\N{\fs20}Forgive me.{\r}
+Dialogue: 0,0:08:20.04,0:08:22.54,Subtitle,,0,0,0,,我并未看到道朗亲王与你们同行\N{\fs20}I don't see Prince Doran in your company.{\r}
+Dialogue: 0,0:08:22.69,0:08:26.80,Subtitle,,0,0,0,,亲王身体不适 只能留于阳戟城\N{\fs20}The prince's health forces him to remain at Sunspear.{\r}
+Dialogue: 0,0:08:26.83,0:08:29.97,Subtitle,,0,0,0,,他派来了弟弟奥柏伦亲王\N{\fs20}He sends his brother Prince Oberyn{\r}
+Dialogue: 0,0:08:30.00,0:08:32.84,Subtitle,,0,0,0,,代替他来参加国王的婚礼\N{\fs20}to attend the royal wedding in his stead.{\r}
+Dialogue: 0,0:08:34.47,0:08:37.77,Subtitle,,0,0,0,,好的 像奥柏伦亲王这样久负盛名的战士\N{\fs20}Yes, the king will be delighted to enjoy the company{\r}
+Dialogue: 0,0:08:37.81,0:08:40.04,Subtitle,,0,0,0,,能来参加婚礼 陛下一定会\N{\fs20}of a warrior as renowned as Prince Oberyn{\r}
+Dialogue: 0,0:08:40.07,0:08:41.94,Subtitle,,0,0,0,,非常高兴的\N{\fs20}at his wedding feast.{\r}
+Dialogue: 0,0:08:41.95,0:08:43.05,Subtitle,,0,0,0,,他会么？\N{\fs20}Will he?{\r}
+Dialogue: 0,0:08:43.08,0:08:46.05,Subtitle,,0,0,0,,奥柏伦亲王在哪儿呢？\N{\fs20}And where is Prince Oberyn?{\r}
+Dialogue: 0,0:08:46.08,0:08:47.48,Subtitle,,0,0,0,,他已于破晓前抵达了\N{\fs20}Arrived before dawn.{\r}
+Dialogue: 0,0:08:47.52,0:08:50.12,Subtitle,,0,0,0,,我们的亲王\N{\fs20}Not a man for welcome parties,{\r}
+Dialogue: 0,0:08:50.15,0:08:52.09,Subtitle,,0,0,0,,不喜欢这些繁文缛节\N{\fs20}our prince.{\r}
+Dialogue: 0,0:08:52.12,0:08:55.79,Subtitle,,0,0,0,,那好吧 大人们 这些都城守备队员\N{\fs20}Very well. My lords, these fine men from the City Watch{\r}
+Dialogue: 0,0:08:55.83,0:08:58.36,Subtitle,,0,0,0,,将会护送您们去红堡中的住处\N{\fs20}will escort you to your quarters in the Red Keep.{\r}
+Dialogue: 0,0:08:58.40,0:09:01.50,Subtitle,,0,0,0,,远道而来 您们一定也疲倦了\N{\fs20}You must be weary after such a long journey.{\r}
+Dialogue: 0,0:09:06.17,0:09:08.54,Subtitle,,0,0,0,,刚才那是很有手腕的外交技巧？\N{\fs20}Some accomplished diplomacy that was.{\r}
+Dialogue: 0,0:09:08.57,0:09:10.24,Subtitle,,0,0,0,,现在去哪儿？\N{\fs20}Now where?{\r}
+Dialogue: 0,0:09:10.27,0:09:12.59,Subtitle,,0,0,0,,我们得赶紧找到奥柏伦亲王 以防他闹出人命\N{\fs20}We must find Prince Oberyn before he kills somebody{\r}
+Dialogue: 0,0:09:12.61,0:09:14.24,Subtitle,,0,0,0,,或者闹出好几条人命\N{\fs20}or several somebodies.{\r}
+Dialogue: 0,0:09:14.24,0:09:17.35,Subtitle,,0,0,0,,这么大的城 上哪儿找一个多恩人去？\N{\fs20}How do you plan on finding a single Dornishman in a city this big?{\r}
+Dialogue: 0,0:09:17.38,0:09:19.52,Subtitle,,0,0,0,,都说你操过半个维斯特洛的妞\N{\fs20}You're famous for fucking half of Westeros.{\r}
+Dialogue: 0,0:09:19.55,0:09:22.59,Subtitle,,0,0,0,,你在个破路上颠簸了两周了才刚到首都\N{\fs20}You just arrived at the capital after two weeks of bad roads,{\r}
+Dialogue: 0,0:09:22.62,0:09:24.05,Subtitle,,0,0,0,,你会去哪儿？\N{\fs20}where would you go?{\r}
+Dialogue: 0,0:09:24.09,0:09:27.22,Subtitle,,0,0,0,,我没准就去睡觉了 不过我有点上年纪了\N{\fs20}I'd probably go to sleep, but I'm getting old.{\r}
+Dialogue: 0,0:09:51.18,0:09:53.32,Subtitle,,0,0,0,,看看这个\N{\fs20}Look at this one.{\r}
+Dialogue: 0,0:09:54.92,0:09:56.89,Subtitle,,0,0,0,,她多可爱\N{\fs20}How lovely is she?{\r}
+Dialogue: 0,0:09:56.92,0:09:58.79,Subtitle,,0,0,0,,美丽\N{\fs20}Beautiful.{\r}
+Dialogue: 0,0:09:58.82,0:10:00.56,Subtitle,,0,0,0,,但苍白\N{\fs20}But pale.{\r}
+Dialogue: 0,0:10:00.59,0:10:02.56,Subtitle,,0,0,0,,在首都 人们就好这口儿\N{\fs20}They like them pale in the capital.{\r}
+Dialogue: 0,0:10:02.59,0:10:05.16,Subtitle,,0,0,0,,说明他们不必下地干活儿\N{\fs20}Shows they don't work the fields.{\r}
+Dialogue: 0,0:10:07.87,0:10:09.83,Subtitle,,0,0,0,,我吓着你了吗？\N{\fs20}Do I frighten you?{\r}
+Dialogue: 0,0:10:11.74,0:10:13.04,Subtitle,,0,0,0,,你喜欢吗？\N{\fs20}You like?{\r}
+Dialogue: 0,0:10:13.07,0:10:16.27,Subtitle,,0,0,0,,害羞 太害羞让我觉得无趣\N{\fs20}Timid. Timid bores me.{\r}
+Dialogue: 0,0:10:22.08,0:10:24.81,Subtitle,,0,0,0,,你比较调皮 是不是？\N{\fs20}You're a bit of mischief, aren't you?{\r}
+Dialogue: 0,0:10:27.38,0:10:28.99,Subtitle,,0,0,0,,我觉得她喜欢你\N{\fs20}I think she likes you.{\r}
+Dialogue: 0,0:10:29.02,0:10:30.69,Subtitle,,0,0,0,,她品味不错\N{\fs20}She has good taste.{\r}
+Dialogue: 0,0:10:32.89,0:10:35.56,Subtitle,,0,0,0,,你一点也不害羞 是不是？\N{\fs20}You're not timid, are you?{\r}
+Dialogue: 0,0:10:38.86,0:10:41.70,Subtitle,,0,0,0,,不害羞\N{\fs20}Not timid.{\r}
+Dialogue: 0,0:10:41.73,0:10:43.57,Subtitle,,0,0,0,,你喜欢女人吗？\N{\fs20}Do you like women?{\r}
+Dialogue: 0,0:10:43.60,0:10:45.53,Subtitle,,0,0,0,,只要她们都像她一样美 大人\N{\fs20}When they look like her, my lord.{\r}
+Dialogue: 0,0:10:45.57,0:10:47.77,Subtitle,,0,0,0,,这个一定会干的不错\N{\fs20}This one will do nicely.{\r}
+Dialogue: 0,0:10:47.80,0:10:49.84,Subtitle,,0,0,0,,太好了 夫人\N{\fs20}Very good, my lady.{\r}
+Dialogue: 0,0:10:49.87,0:10:52.11,Subtitle,,0,0,0,,我可不是什么夫人\N{\fs20}Oh, I'm not a lady.{\r}
+Dialogue: 0,0:10:52.14,0:10:54.41,Subtitle,,0,0,0,,在我们这儿 这只是礼貌用语\N{\fs20}A term of courtesy in this establishment.{\r}
+Dialogue: 0,0:10:54.44,0:10:56.31,Subtitle,,0,0,0,,无论在哪儿都是谎言\N{\fs20}A lie anywhere.{\r}
+Dialogue: 0,0:10:56.35,0:10:58.75,Subtitle,,0,0,0,,我们干嘛不用点正确的词汇？\N{\fs20}Why not use the right words?{\r}
+Dialogue: 0,0:10:58.78,0:11:00.38,Subtitle,,0,0,0,,我是个私生女\N{\fs20}I'm a bastard.{\r}
+Dialogue: 0,0:11:00.42,0:11:04.09,Subtitle,,0,0,0,,她是个婊子 你是什么？\N{\fs20}She is a whore. And you're what?{\r}
+Dialogue: 0,0:11:04.12,0:11:06.26,Subtitle,,0,0,0,,一个拉皮条的\N{\fs20}A procurer.{\r}
+Dialogue: 0,0:11:06.29,0:11:07.89,Subtitle,,0,0,0,,还要别人吗？\N{\fs20}Any of the others?{\r}
+Dialogue: 0,0:11:09.93,0:11:11.66,Subtitle,,0,0,0,,这两个女孩可以走了\N{\fs20}The two girls can leave.{\r}
+Dialogue: 0,0:11:11.70,0:11:13.63,Subtitle,,0,0,0,,你留下\N{\fs20}You stay.{\r}
+Dialogue: 0,0:11:15.57,0:11:17.23,Subtitle,,0,0,0,,我恐怕我不在出售之列 大人\N{\fs20}I'm afraid I'm not an offer, my lord.{\r}
+Dialogue: 0,0:11:17.27,0:11:20.30,Subtitle,,0,0,0,,所有替小指头卖命的人都能出售\N{\fs20}Everyone who works for Littlefinger is an offer.{\r}
+Dialogue: 0,0:11:20.34,0:11:23.11,Subtitle,,0,0,0,,脱衣服 我们要在这儿待很久\N{\fs20}Take off your clothes. We'll be here a while.{\r}
+Dialogue: 0,0:11:23.14,0:11:26.28,Subtitle,,0,0,0,,- 大人 - 我是个亲王 孩子\N{\fs20}- My lord. - I am a prince, boy.{\r}
+Dialogue: 0,0:11:27.54,0:11:29.08,Subtitle,,0,0,0,,你跟亲王睡过吗？\N{\fs20}Have you ever been with a prince?{\r}
+Dialogue: 0,0:11:30.61,0:11:32.28,Subtitle,,0,0,0,,我想没有吧\N{\fs20}Can't say I have.{\r}
+Dialogue: 0,0:11:35.82,0:11:38.29,Subtitle,,0,0,0,,我可是很贵的\N{\fs20}I'm wildly expensive.{\r}
+Dialogue: 0,0:11:39.99,0:11:41.89,Subtitle,,0,0,0,,脱掉你的衣服\N{\fs20}Take off your clothes.{\r}
+Dialogue: 0,0:11:48.90,0:11:51.03,Subtitle,,0,0,0,,你喜欢按什么方式玩？\N{\fs20}Which way do you like it?{\r}
+Dialogue: 0,0:11:52.27,0:11:55.07,Subtitle,,0,0,0,,我的方式\N{\fs20}My way.{\r}
+Dialogue: 0,0:11:55.11,0:11:59.51,Subtitle,,0,0,0,,噢他这样说 他这样说\N{\fs20}And so he spoke and so he spoke{\r}
+Dialogue: 0,0:11:59.54,0:12:03.71,Subtitle,,0,0,0,,卡斯特梅的爵爷\N{\fs20}That Lord of Castamere{\r}
+Dialogue: 0,0:12:03.75,0:12:06.35,Subtitle,,0,0,0,,- 奥柏伦 - 然而今天 每逢雨季……\N{\fs20}- Oberyn. - And now the rains... {\r}
+Dialogue: 0,0:12:06.38,0:12:09.32,Subtitle,,0,0,0,,- 奥柏伦 不要 - 雨水在大厅哭泣\N{\fs20}- Oberyn, don't. - Weep o'er his hall... {\r}
+Dialogue: 0,0:12:09.35,0:12:13.06,Subtitle,,0,0,0,,内里却无人影\N{\fs20}With no one there to hear{\r}
+Dialogue: 0,0:12:13.09,0:12:18.09,Subtitle,,0,0,0,,然而今天 每逢雨季 雨水在大厅哭泣\N{\fs20}Yes, not the rains weep o'er his hall{\r}
+Dialogue: 0,0:12:18.13,0:12:24.30,Subtitle,,0,0,0,,内里却无魂灵\N{\fs20}And not a soul to hear. {\r}
+Dialogue: 0,0:12:32.04,0:12:33.58,Subtitle,,0,0,0,,你迷路了 朋友？\N{\fs20}You lost, friend?{\r}
+Dialogue: 0,0:12:33.61,0:12:36.55,Subtitle,,0,0,0,,原谅我这样盯着你们\N{\fs20}Forgive me for staring.{\r}
+Dialogue: 0,0:12:36.58,0:12:39.25,Subtitle,,0,0,0,,我们那儿没见过什么兰尼斯特的人\N{\fs20}I don't see many Lannisters where I'm from.{\r}
+Dialogue: 0,0:12:39.28,0:12:42.02,Subtitle,,0,0,0,,我在首都也没见过多恩人\N{\fs20}I don't see many Dornishmen in the capital.{\r}
+Dialogue: 0,0:12:42.05,0:12:45.35,Subtitle,,0,0,0,,我们不喜欢这股味道\N{\fs20}We don't like the smell.{\r}
+Dialogue: 0,0:12:45.39,0:12:48.12,Subtitle,,0,0,0,,- 跟我来 情人 - 天哪 看看这个\N{\fs20}- Come with me, lover. - Gods, look at this one.{\r}
+Dialogue: 0,0:12:48.16,0:12:50.46,Subtitle,,0,0,0,,先生们 如果你们跟我来 我会给你们一个单间\N{\fs20}Sirs, if you follow me, I'll arrange for a private room.{\r}
+Dialogue: 0,0:12:50.49,0:12:52.76,Subtitle,,0,0,0,,你们干嘛把这么好一个女人浪费在多恩人身上？\N{\fs20}Why are you wasting a woman like this on a Dornishman?{\r}
+Dialogue: 0,0:12:52.80,0:12:54.90,Subtitle,,0,0,0,,给他头剃光了的山羊还有一瓶橄榄油就行了\N{\fs20}Bring him a shaved goat and a bottle of olive oil.{\r}
+Dialogue: 0,0:13:00.44,0:13:03.41,Subtitle,,0,0,0,,你们知道为什么全世界都讨厌兰尼斯特吗？\N{\fs20}Do you know why all the world hates a Lannister?{\r}
+Dialogue: 0,0:13:08.68,0:13:12.72,Subtitle,,0,0,0,,你们觉得你们的金币和狮子\N{\fs20}You think your gold and your lions{\r}
+Dialogue: 0,0:13:12.75,0:13:16.25,Subtitle,,0,0,0,,还有你们的金狮子就能让你们比任何人都强了\N{\fs20}and your gold lions make you better than everyone.{\r}
+Dialogue: 0,0:13:18.39,0:13:20.76,Subtitle,,0,0,0,,不如我告诉你们一个秘密吧\N{\fs20}May I tell you a secret?{\r}
+Dialogue: 0,0:13:20.79,0:13:23.23,Subtitle,,0,0,0,,你们根本不是金狮子\N{\fs20}You're not a golden lion.{\r}
+Dialogue: 0,0:13:24.29,0:13:25.80,Subtitle,,0,0,0,,你们就是些小娘娘腔\N{\fs20}You're just a pink little man{\r}
+Dialogue: 0,0:13:25.83,0:13:28.16,Subtitle,,0,0,0,,拔剑慢得要命\N{\fs20}who is far too slow on the draw.{\r}
+Dialogue: 0,0:13:37.21,0:13:40.48,Subtitle,,0,0,0,,近身战 长剑可不好使\N{\fs20}Longsword is a bad option in close quarters.{\r}
+Dialogue: 0,0:13:40.51,0:13:42.78,Subtitle,,0,0,0,,我只要一拔匕首 你的朋友就会开始流血\N{\fs20}When I pull my blade, your friend starts bleeding.{\r}
+Dialogue: 0,0:13:42.81,0:13:45.45,Subtitle,,0,0,0,,我恐怕会血流不止 手腕上有太多血管了\N{\fs20}Quite a lot, I'm afraid. So many veins in the wrist.{\r}
+Dialogue: 0,0:13:46.95,0:13:49.75,Subtitle,,0,0,0,,要是你立刻帮忙的话他就能活命\N{\fs20}He'll live if you get him help straightaway.{\r}
+Dialogue: 0,0:13:51.42,0:13:54.42,Subtitle,,0,0,0,,做决定吧\N{\fs20}So, decisions.{\r}
+Dialogue: 0,0:13:56.33,0:13:57.86,Subtitle,,0,0,0,,奥柏伦亲王 请原谅 打搅了\N{\fs20}Prince Oberyn, forgive the intrusion.{\r}
+Dialogue: 0,0:13:57.89,0:13:59.86,Subtitle,,0,0,0,,我们听见好像有...\N{\fs20}We heard there might be...{\r}
+Dialogue: 0,0:13:59.90,0:14:02.00,Subtitle,,0,0,0,,...麻烦\N{\fs20}...trouble.{\r}
+Dialogue: 0,0:14:03.17,0:14:05.30,Subtitle,,0,0,0,,抱歉 我的爱人\N{\fs20}Apologies, my love.{\r}
+Dialogue: 0,0:14:10.61,0:14:13.51,Subtitle,,0,0,0,,我来这儿是为了欢迎您到君临来\N{\fs20}I'm here to welcome you to the capital.{\r}
+Dialogue: 0,0:14:17.88,0:14:20.88,Subtitle,,0,0,0,,这位是艾拉利亚·沙德 我的情人\N{\fs20}Ellaria Sand, my paramour.{\r}
+Dialogue: 0,0:14:21.95,0:14:23.85,Subtitle,,0,0,0,,这位是国王的亲舅舅 小恶魔\N{\fs20}The king's own Uncle Imp.{\r}
+Dialogue: 0,0:14:23.89,0:14:26.79,Subtitle,,0,0,0,,泰温·兰尼斯特的儿子提利昂\N{\fs20}Tyrion, son of Tywin Lannister.{\r}
+Dialogue: 0,0:14:26.82,0:14:28.46,Subtitle,,0,0,0,,如果有什么我能帮忙的 让您此行——\N{\fs20}If there's anything I can do to make your stay--{\r}
+Dialogue: 0,0:14:28.49,0:14:30.26,Subtitle,,0,0,0,,你是谁? 他的雇佣杀手?\N{\fs20}What are you? His hired killer?{\r}
+Dialogue: 0,0:14:30.29,0:14:33.73,Subtitle,,0,0,0,,以前是 现在我是骑士了\N{\fs20}It started that way, aye. Now I'm a knight.{\r}
+Dialogue: 0,0:14:33.76,0:14:35.03,Subtitle,,0,0,0,,怎么成骑士了?\N{\fs20}How did that come to pass?{\r}
+Dialogue: 0,0:14:35.07,0:14:37.40,Subtitle,,0,0,0,,我想我杀对了人\N{\fs20}Killed the right people, I suppose.{\r}
+Dialogue: 0,0:14:41.67,0:14:45.24,Subtitle,,0,0,0,,我们还要叫些姑娘来 是姑娘 对吧?\N{\fs20}We'll need a few more girls. Girls, yes?{\r}
+Dialogue: 0,0:14:45.28,0:14:46.64,Subtitle,,0,0,0,,你不加入吗?\N{\fs20}You don't partake?{\r}
+Dialogue: 0,0:14:46.68,0:14:49.38,Subtitle,,0,0,0,,以前会 现在我结婚了\N{\fs20}Oh, I partook. Now I'm married.{\r}
+Dialogue: 0,0:14:49.41,0:14:52.75,Subtitle,,0,0,0,,奥柏伦亲王 我想跟您单独谈谈 可以吗?\N{\fs20}Prince Oberyn, if I may, a word in private?{\r}
+Dialogue: 0,0:14:57.05,0:14:59.49,Subtitle,,0,0,0,,我好像误闯了兰尼斯特家的妓院啊\N{\fs20}Seems I visited the Lannister brothel by mistake.{\r}
+Dialogue: 0,0:14:59.52,0:15:01.99,Subtitle,,0,0,0,,- 哦 他们什么人都接的 - 连多恩人都接\N{\fs20}- Oh, they take all kinds. - Even Dornishmen.{\r}
+Dialogue: 0,0:15:02.03,0:15:04.19,Subtitle,,0,0,0,,国王感谢您能远道而来\N{\fs20}The king is very grateful that you traveled all{\r}
+Dialogue: 0,0:15:04.21,0:15:05.66,Subtitle,,0,0,0,,参加他的婚礼\N{\fs20}this way for his wedding.{\r}
+Dialogue: 0,0:15:05.66,0:15:08.63,Subtitle,,0,0,0,,我们说实话吧 乔佛里感觉被侮辱了\N{\fs20}Let us speak truth here. Joffrey is insulted.{\r}
+Dialogue: 0,0:15:08.67,0:15:11.67,Subtitle,,0,0,0,,毕竟我只是次子\N{\fs20}I am only the second son after all.{\r}
+Dialogue: 0,0:15:11.70,0:15:13.74,Subtitle,,0,0,0,,好吧 这样说的话 我也是次子\N{\fs20}Well, speaking as a fellow second son,{\r}
+Dialogue: 0,0:15:13.77,0:15:17.11,Subtitle,,0,0,0,,我已经习惯了被当作家族的耻辱\N{\fs20}I have grown rather used to being the family insult.{\r}
+Dialogue: 0,0:15:18.54,0:15:20.64,Subtitle,,0,0,0,,奥柏伦亲王 您为何要到君临来?\N{\fs20}Why did you come to King's Landing, Prince Oberyn?{\r}
+Dialogue: 0,0:15:20.68,0:15:22.14,Subtitle,,0,0,0,,我受邀来参加皇家婚礼\N{\fs20}I was invited to the royal wedding.{\r}
+Dialogue: 0,0:15:22.18,0:15:24.78,Subtitle,,0,0,0,,我以为我们在说实话\N{\fs20}I thought we were speaking truth.{\r}
+Dialogue: 0,0:15:26.42,0:15:29.05,Subtitle,,0,0,0,,上次我来君临还是很多年以前\N{\fs20}The last time I was in the capital was many years ago.{\r}
+Dialogue: 0,0:15:29.09,0:15:31.12,Subtitle,,0,0,0,,参加另一场婚礼\N{\fs20}Another wedding.{\r}
+Dialogue: 0,0:15:31.15,0:15:33.29,Subtitle,,0,0,0,,是我姐姐伊莉亚\N{\fs20}My sister Elia{\r}
+Dialogue: 0,0:15:33.32,0:15:36.79,Subtitle,,0,0,0,,和最后的真龙传人雷加·坦格利安的婚礼\N{\fs20}and Rhaegar Targaryen, the Last Dragon.{\r}
+Dialogue: 0,0:15:39.50,0:15:42.60,Subtitle,,0,0,0,,我姐姐爱他 她为他生孩子\N{\fs20}My sister loved him. She bore his children.{\r}
+Dialogue: 0,0:15:42.63,0:15:46.27,Subtitle,,0,0,0,,她亲自给孩子们喂奶 哄他们睡着\N{\fs20}Swaddled them, rocked them, fed them at her own breast.{\r}
+Dialogue: 0,0:15:46.30,0:15:49.31,Subtitle,,0,0,0,,伊莉亚不让奶妈碰孩子\N{\fs20}Elia wouldn't let the wet nurse touch them.{\r}
+Dialogue: 0,0:15:49.34,0:15:52.88,Subtitle,,0,0,0,,而英俊高贵的雷加·坦格利安\N{\fs20}And beautiful, noble Rhaegar Targaryen{\r}
+Dialogue: 0,0:15:52.91,0:15:55.71,Subtitle,,0,0,0,,却为了另一个女人离开了她\N{\fs20}left her for another woman.{\r}
+Dialogue: 0,0:15:56.58,0:15:57.91,Subtitle,,0,0,0,,这引发了一场战争\N{\fs20}That started a war{\r}
+Dialogue: 0,0:15:57.95,0:16:00.72,Subtitle,,0,0,0,,而那场战争就是在这里结束的\N{\fs20}and the war ended right here{\r}
+Dialogue: 0,0:16:00.75,0:16:03.02,Subtitle,,0,0,0,,你父亲的军队占领了城市\N{\fs20}when your father's army took the city...{\r}
+Dialogue: 0,0:16:03.05,0:16:04.42,Subtitle,,0,0,0,,我不在场\N{\fs20}I wasn't actually present.{\r}
+Dialogue: 0,0:16:04.45,0:16:06.79,Subtitle,,0,0,0,,...还屠杀了那些孩子们\N{\fs20}...and butchered those children.{\r}
+Dialogue: 0,0:16:08.56,0:16:10.19,Subtitle,,0,0,0,,我的外甥和外甥女\N{\fs20}My nephew and niece.{\r}
+Dialogue: 0,0:16:10.23,0:16:14.36,Subtitle,,0,0,0,,杀死他们 然后用兰尼斯特家族的斗篷包起来\N{\fs20}Carved them up and wrapped them in Lannister cloaks.{\r}
+Dialogue: 0,0:16:16.47,0:16:19.74,Subtitle,,0,0,0,,我姐姐 你知道他们是怎么对她的?\N{\fs20}And my sister, you know what they did to her?{\r}
+Dialogue: 0,0:16:22.61,0:16:24.31,Subtitle,,0,0,0,,我问你呢\N{\fs20}I'm asking you a question.{\r}
+Dialogue: 0,0:16:24.34,0:16:26.48,Subtitle,,0,0,0,,我听到了一些传言\N{\fs20}I've heard rumors.{\r}
+Dialogue: 0,0:16:26.51,0:16:29.14,Subtitle,,0,0,0,,我也听到了\N{\fs20}So have I.{\r}
+Dialogue: 0,0:16:29.18,0:16:33.12,Subtitle,,0,0,0,,我听到最多的传言是魔山格雷果·克里冈\N{\fs20}The one I keep hearing is that Gregor Clegane the Mountain{\r}
+Dialogue: 0,0:16:33.15,0:16:36.09,Subtitle,,0,0,0,,强奸了伊莉亚 然后用他的剑\N{\fs20}raped Elia and split her in half{\r}
+Dialogue: 0,0:16:36.12,0:16:37.45,Subtitle,,0,0,0,,把她砍成两半\N{\fs20}with his great sword.{\r}
+Dialogue: 0,0:16:37.49,0:16:39.39,Subtitle,,0,0,0,,我不在场 我不知道发生了什么\N{\fs20}I wasn't there. I don't know what happened.{\r}
+Dialogue: 0,0:16:39.42,0:16:41.12,Subtitle,,0,0,0,,如果是魔山杀死了我姐姐\N{\fs20}If the Mountain killed my sister,{\r}
+Dialogue: 0,0:16:41.16,0:16:43.39,Subtitle,,0,0,0,,那就是你父亲下的命令\N{\fs20}your father gave the order.{\r}
+Dialogue: 0,0:16:44.36,0:16:46.66,Subtitle,,0,0,0,,告诉你父亲 我在这里\N{\fs20}Tell your father I'm here.{\r}
+Dialogue: 0,0:16:48.43,0:16:51.97,Subtitle,,0,0,0,,告诉他“有债必偿”的并不只有兰尼斯特家\N{\fs20}And tell him the Lannisters aren't the only ones who pay their debts.{\r}
+Dialogue: 0,0:17:20.23,0:17:22.87,Subtitle,,0,0,0,,嘘\N{\fs20}Shh.{\r}
+Dialogue: 0,0:17:54.40,0:17:55.96,Subtitle,,0,0,0,,嘘 嘘\N{\fs20}Shh. Shh.{\r}
+Dialogue: 0,0:18:13.72,0:18:16.29,Subtitle,,0,0,0,,它们是龙 卡丽熙\N{\fs20}They're dragons, Khaleesi.{\r}
+Dialogue: 0,0:18:16.32,0:18:19.12,Subtitle,,0,0,0,,它们永远无法被驯服\N{\fs20}They can never be tamed.{\r}
+Dialogue: 0,0:18:19.16,0:18:21.86,Subtitle,,0,0,0,,即使龙母也不行\N{\fs20}Not even by their mother.{\r}
+Dialogue: 0,0:18:42.45,0:18:45.18,Subtitle,,0,0,0,,- 巴利斯坦爵士 - 陛下\N{\fs20}- Ser Barristan. - Your Grace.{\r}
+Dialogue: 0,0:18:46.52,0:18:48.52,Subtitle,,0,0,0,,达里奥·纳哈里斯在哪儿?\N{\fs20}Where's Daario Naharis?{\r}
+Dialogue: 0,0:18:48.59,0:18:50.29,Subtitle,,0,0,0,,灰虫子在哪儿?\N{\fs20}Where's Grey Worm?{\r}
+Dialogue: 0,0:18:51.59,0:18:54.19,Subtitle,,0,0,0,,在打赌 陛下\N{\fs20}Gambling, Your Grace.{\r}
+Dialogue: 0,0:18:55.53,0:18:57.26,Subtitle,,0,0,0,,打赌？\N{\fs20}Gambling?{\r}
+Dialogue: 0,0:19:18.45,0:19:22.75,Subtitle,,0,0,0,,弥莎 弥莎 弥莎\N{\fs20}Mhysa. Mhysa. Mhysa...{\r}
+Dialogue: 0,0:19:31.29,0:19:33.33,Subtitle,,0,0,0,,他们像这样多久了?\N{\fs20}How long have they been at it?{\r}
+Dialogue: 0,0:19:33.36,0:19:35.63,Subtitle,,0,0,0,,从午夜开始 陛下\N{\fs20}Since midnight, Your Grace.{\r}
+Dialogue: 0,0:19:35.67,0:19:38.30,Subtitle,,0,0,0,,灰虫子爵士比看上去要强壮些\N{\fs20}Ser Worm is stronger than he looks.{\r}
+Dialogue: 0,0:19:38.33,0:19:40.20,Subtitle,,0,0,0,,但我能看出他的胳膊开始颤抖了\N{\fs20}But I can see his arms beginning to shake.{\r}
+Dialogue: 0,0:19:40.24,0:19:42.60,Subtitle,,0,0,0,,赢得这场愚蠢竞赛的奖赏是什么?\N{\fs20}What's the prize to winning this stupid contest?{\r}
+Dialogue: 0,0:19:42.64,0:19:44.77,Subtitle,,0,0,0,,获得在去弥林的路上在您身边骑行的荣耀\N{\fs20}The honor of riding by your side on the road to Meereen.{\r}
+Dialogue: 0,0:19:44.81,0:19:48.38,Subtitle,,0,0,0,,那个荣耀属于乔拉爵士和巴利斯坦爵士\N{\fs20}That honor goes to Ser Jorah and Ser Barristan{\r}
+Dialogue: 0,0:19:48.41,0:19:50.75,Subtitle,,0,0,0,,因为今天早上他们没让我久等\N{\fs20}as neither of them kept me waiting this morning.{\r}
+Dialogue: 0,0:19:50.78,0:19:54.32,Subtitle,,0,0,0,,你们两个殿后 保护牲畜\N{\fs20}You two will ride in the rear guard and protect the livestock.{\r}
+Dialogue: 0,0:19:56.12,0:19:58.09,Subtitle,,0,0,0,,最后一个举着剑的人\N{\fs20}The last man holding his sword{\r}
+Dialogue: 0,0:19:58.12,0:20:00.66,Subtitle,,0,0,0,,重新找个女王去效忠吧\N{\fs20}can find a new queen to fight for.{\r}
+Dialogue: 0,0:20:06.73,0:20:07.71,Subtitle,,0,0,0,,{\pos(362,335)}你喜欢这姑娘?
+Dialogue: 0,0:20:09.40,0:20:10.48,Subtitle,,0,0,0,,{\pos(357,336)}你一定很沮丧
+Dialogue: 0,0:20:10.65,0:20:13.20,Subtitle,,0,0,0,,{\pos(360,340)}你不是个聪明人 达里奥·纳哈里斯
+Dialogue: 0,0:20:13.91,0:20:15.58,Subtitle,,0,0,0,,{\pos(361,342)}我宁愿没脑子
+Dialogue: 0,0:20:16.38,0:20:18.48,Subtitle,,0,0,0,,{\pos(356,342)}也不要没蛋卵
+Dialogue: 0,0:20:29.22,0:20:31.65,Subtitle,,0,0,0,,你得吃点东西\N{\fs20}You need to eat something.{\r}
+Dialogue: 0,0:20:34.72,0:20:36.83,Subtitle,,0,0,0,,鸽子派\N{\fs20}Pigeon pie.{\r}
+Dialogue: 0,0:20:36.86,0:20:39.09,Subtitle,,0,0,0,,不用了 谢谢\N{\fs20}No, thank you.{\r}
+Dialogue: 0,0:20:42.70,0:20:45.07,Subtitle,,0,0,0,,吃柠檬蛋糕吗?\N{\fs20}Lemon cakes?{\r}
+Dialogue: 0,0:20:45.10,0:20:46.80,Subtitle,,0,0,0,,不用了 谢谢\N{\fs20}No, thank you.{\r}
+Dialogue: 0,0:20:46.84,0:20:48.70,Subtitle,,0,0,0,,你很爱吃柠檬蛋糕\N{\fs20}You love lemon cakes.{\r}
+Dialogue: 0,0:20:49.74,0:20:51.51,Subtitle,,0,0,0,,告诉她 她得吃东西\N{\fs20}Tell her she needs to eat.{\r}
+Dialogue: 0,0:20:51.54,0:20:53.28,Subtitle,,0,0,0,,夫人 你真的需要吃东西\N{\fs20}My lady, you do need to eat.{\r}
+Dialogue: 0,0:20:53.31,0:20:55.24,Subtitle,,0,0,0,,我不需要吃东西\N{\fs20}I don't need to eat.{\r}
+Dialogue: 0,0:20:57.35,0:21:00.35,Subtitle,,0,0,0,,我想和我夫人单独待会儿\N{\fs20}If I could have a moment alone with my wife.{\r}
+Dialogue: 0,0:21:09.49,0:21:11.76,Subtitle,,0,0,0,,她得吃东西\N{\fs20}She needs to eat.{\r}
+Dialogue: 0,0:21:18.64,0:21:20.97,Subtitle,,0,0,0,,我不能让你饿死\N{\fs20}I can't let you starve.{\r}
+Dialogue: 0,0:21:21.00,0:21:22.94,Subtitle,,0,0,0,,我发过誓要保护你\N{\fs20}I swore to protect you.{\r}
+Dialogue: 0,0:21:29.28,0:21:31.81,Subtitle,,0,0,0,,夫人\N{\fs20}My lady,{\r}
+Dialogue: 0,0:21:31.85,0:21:34.15,Subtitle,,0,0,0,,我是你丈夫 让我帮助你\N{\fs20}I am your husband. Let me help you.{\r}
+Dialogue: 0,0:21:35.95,0:21:38.09,Subtitle,,0,0,0,,你怎么帮我?\N{\fs20}How can you help me?{\r}
+Dialogue: 0,0:21:38.12,0:21:40.76,Subtitle,,0,0,0,,我不知道 但我可以试试\N{\fs20}I don't know, but I can try.{\r}
+Dialogue: 0,0:21:42.03,0:21:46.76,Subtitle,,0,0,0,,我整晚失眠 盯着天花板\N{\fs20}I lie awake all night staring at the canopy{\r}
+Dialogue: 0,0:21:46.80,0:21:49.63,Subtitle,,0,0,0,,满脑子都是他们惨死的样子\N{\fs20}thinking about how they died.{\r}
+Dialogue: 0,0:21:49.67,0:21:53.00,Subtitle,,0,0,0,,我可以给你弄点夜影之水 有助于睡眠\N{\fs20}I could get you essence of nightshade to help you sleep.{\r}
+Dialogue: 0,0:21:53.04,0:21:55.20,Subtitle,,0,0,0,,你知道他们对我哥哥做了什么吗?\N{\fs20}Do you know what they did to my brother?{\r}
+Dialogue: 0,0:21:57.41,0:22:00.58,Subtitle,,0,0,0,,他们把冰原狼的脑袋缝到他身上\N{\fs20}How they sewed his direwolf's head onto his body?{\r}
+Dialogue: 0,0:22:01.81,0:22:04.05,Subtitle,,0,0,0,,而我母亲\N{\fs20}And my mother.{\r}
+Dialogue: 0,0:22:04.08,0:22:06.65,Subtitle,,0,0,0,,人们说他们把她喉咙割开 深可见骨\N{\fs20}They say they cut her throat to the bone{\r}
+Dialogue: 0,0:22:06.68,0:22:09.79,Subtitle,,0,0,0,,然后将尸身扔入河中\N{\fs20}and threw her body in the river.{\r}
+Dialogue: 0,0:22:09.82,0:22:13.82,Subtitle,,0,0,0,,你家人的遭遇是一桩可怕的罪行\N{\fs20}What happened to your family was a terrible crime.{\r}
+Dialogue: 0,0:22:13.86,0:22:15.12,Subtitle,,0,0,0,,我不了解你哥哥\N{\fs20}I didn't know your brother.{\r}
+Dialogue: 0,0:22:15.15,0:22:17.15,Subtitle,,0,0,0,,他看起来是个好人 但我不了解他\N{\fs20}He seemed like a good man, but I didn't know him.{\r}
+Dialogue: 0,0:22:17.16,0:22:20.16,Subtitle,,0,0,0,,而你的母亲\N{\fs20}Your mother, on the other hand,{\r}
+Dialogue: 0,0:22:20.20,0:22:22.20,Subtitle,,0,0,0,,我很钦佩她\N{\fs20}I admired her.{\r}
+Dialogue: 0,0:22:22.27,0:22:24.43,Subtitle,,0,0,0,,虽然她很想弄死我\N{\fs20}She wanted to have me executed,{\r}
+Dialogue: 0,0:22:24.47,0:22:26.47,Subtitle,,0,0,0,,但我钦佩她\N{\fs20}but I admired her.{\r}
+Dialogue: 0,0:22:28.04,0:22:30.24,Subtitle,,0,0,0,,她是一位坚强的女子\N{\fs20}She was a strong woman.{\r}
+Dialogue: 0,0:22:30.27,0:22:32.37,Subtitle,,0,0,0,,而当她保护自己的孩子时\N{\fs20}And she was fierce{\r}
+Dialogue: 0,0:22:32.41,0:22:34.58,Subtitle,,0,0,0,,她是很强势的\N{\fs20}when it came to protecting her children.{\r}
+Dialogue: 0,0:22:37.01,0:22:39.08,Subtitle,,0,0,0,,珊莎\N{\fs20}Sansa.{\r}
+Dialogue: 0,0:22:41.12,0:22:43.65,Subtitle,,0,0,0,,你母亲会希望你活下去\N{\fs20}Your mother would want you to carry on.{\r}
+Dialogue: 0,0:22:43.69,0:22:45.02,Subtitle,,0,0,0,,这你是知道的\N{\fs20}You know it's true.{\r}
+Dialogue: 0,0:22:50.29,0:22:51.76,Subtitle,,0,0,0,,请原谅 大人?\N{\fs20}Will you pardon me, my lord?{\r}
+Dialogue: 0,0:22:51.79,0:22:53.36,Subtitle,,0,0,0,,我想去神木林\N{\fs20}I'd like to visit the godswood.{\r}
+Dialogue: 0,0:22:53.40,0:22:56.50,Subtitle,,0,0,0,,当然 当然 我听说祈祷很有用\N{\fs20}Of course. Of course. Prayer can be helpful, I hear.{\r}
+Dialogue: 0,0:22:56.53,0:22:59.23,Subtitle,,0,0,0,,我不再祈祷了\N{\fs20}I don't pray anymore.{\r}
+Dialogue: 0,0:22:59.27,0:23:02.84,Subtitle,,0,0,0,,只有在那儿 没人和我说话\N{\fs20}It's the only place I can go where people don't talk to me.{\r}
+Dialogue: 0,0:23:21.02,0:23:23.29,Subtitle,,0,0,0,,我的狮子\N{\fs20}My lion.{\r}
+Dialogue: 0,0:23:23.33,0:23:25.83,Subtitle,,0,0,0,,你在这儿干什么?\N{\fs20}What are you doing?{\r}
+Dialogue: 0,0:23:28.46,0:23:32.23,Subtitle,,0,0,0,,你看我像在干什么? 来\N{\fs20}What does it look like I'm doing? Come here.{\r}
+Dialogue: 0,0:23:32.27,0:23:34.94,Subtitle,,0,0,0,,我跟你说过多少次了? 你不能在这儿见我\N{\fs20}How many times have I told you? You can't visit me here.{\r}
+Dialogue: 0,0:23:34.97,0:23:36.61,Subtitle,,0,0,0,,我知道 我知道\N{\fs20}I know. I know.{\r}
+Dialogue: 0,0:23:36.64,0:23:38.91,Subtitle,,0,0,0,,这是个危险的地方\N{\fs20}We have come to a dangerous place.{\r}
+Dialogue: 0,0:23:38.94,0:23:41.41,Subtitle,,0,0,0,,你忘了我吗? 你知道已经多久了吗?\N{\fs20}Have you forgotten me? Do you know how long it's been?{\r}
+Dialogue: 0,0:23:41.44,0:23:42.74,Subtitle,,0,0,0,,我当然没忘\N{\fs20}Of course I haven't forgotten.{\r}
+Dialogue: 0,0:23:42.78,0:23:45.08,Subtitle,,0,0,0,,我想要你\N{\fs20}I want you.{\r}
+Dialogue: 0,0:23:45.11,0:23:46.58,Subtitle,,0,0,0,,你不想要我吗?\N{\fs20}Don't you want me?{\r}
+Dialogue: 0,0:23:48.28,0:23:50.65,Subtitle,,0,0,0,,现在形势紧张\N{\fs20}Things are a bit tense right now.{\r}
+Dialogue: 0,0:23:50.69,0:23:52.82,Subtitle,,0,0,0,,什么形势?\N{\fs20}What things?{\r}
+Dialogue: 0,0:23:52.86,0:23:54.92,Subtitle,,0,0,0,,我的国王外甥想要杀死我\N{\fs20}My nephew the king wants to murder me.{\r}
+Dialogue: 0,0:23:54.96,0:23:57.59,Subtitle,,0,0,0,,我妻子恨我 因为我父亲杀了她全家\N{\fs20}My wife hates me because my father murdered her family.{\r}
+Dialogue: 0,0:23:57.63,0:23:59.47,Subtitle,,0,0,0,,奥柏伦·马泰尔想要杀死每一个\N{\fs20}Oberyn Martell wants to murder everyone whose{\r}
+Dialogue: 0,0:23:59.50,0:24:01.10,Subtitle,,0,0,0,,姓兰尼斯特的人\N{\fs20}last name is Lannister.{\r}
+Dialogue: 0,0:24:01.10,0:24:05.60,Subtitle,,0,0,0,,你需要放松一下\N{\fs20}You need to relax.{\r}
+Dialogue: 0,0:24:14.58,0:24:16.38,Subtitle,,0,0,0,,你不想放松一下吗?\N{\fs20}Don't you want to relax?{\r}
+Dialogue: 0,0:24:22.19,0:24:23.79,Subtitle,,0,0,0,,- 怎么了? - 我跟你说过了\N{\fs20}- What's wrong? - I told you.{\r}
+Dialogue: 0,0:24:23.82,0:24:26.29,Subtitle,,0,0,0,,- 现在不是时候 - 永远都不是时候\N{\fs20}- It's not a good time. - It's never a good time.{\r}
+Dialogue: 0,0:24:26.32,0:24:29.39,Subtitle,,0,0,0,,- 你现在有一个孩子做新娘了 - 雪伊\N{\fs20}- You have your child bride now. - Shae.{\r}
+Dialogue: 0,0:24:30.46,0:24:31.99,Subtitle,,0,0,0,,- 你爱她吗? - 爱她?\N{\fs20}- Do you love her? - Love her?{\r}
+Dialogue: 0,0:24:32.03,0:24:34.20,Subtitle,,0,0,0,,我几乎不了解她 她只是个孩子\N{\fs20}I barely know her. She's a child.{\r}
+Dialogue: 0,0:24:34.23,0:24:36.87,Subtitle,,0,0,0,,- 她看不起我 - 这不算回答\N{\fs20}- She despises me. - That's not an answer.{\r}
+Dialogue: 0,0:24:36.90,0:24:39.10,Subtitle,,0,0,0,,我当然不爱她\N{\fs20}Of course I don't love her.{\r}
+Dialogue: 0,0:24:39.14,0:24:41.17,Subtitle,,0,0,0,,你想把我送走\N{\fs20}You tried to ship me away.{\r}
+Dialogue: 0,0:24:41.20,0:24:43.31,Subtitle,,0,0,0,,送你走?\N{\fs20}Ship you away?{\r}
+Dialogue: 0,0:24:44.47,0:24:47.14,Subtitle,,0,0,0,,你送我钻石 好让我消失\N{\fs20}Give me diamonds and make me disappear.{\r}
+Dialogue: 0,0:24:47.18,0:24:49.01,Subtitle,,0,0,0,,你究竟在说些什么?\N{\fs20}What in the world are you talking about?{\r}
+Dialogue: 0,0:24:49.05,0:24:50.95,Subtitle,,0,0,0,,如果你想让我走 只管说好了\N{\fs20}If you want me to leave, just say it.{\r}
+Dialogue: 0,0:24:52.48,0:24:54.75,Subtitle,,0,0,0,,- 说! - 嘘\N{\fs20}- Say it! - Shh.{\r}
+Dialogue: 0,0:24:54.78,0:24:56.85,Subtitle,,0,0,0,,我不明白你在说什么\N{\fs20}I don't know what you're talking about.{\r}
+Dialogue: 0,0:24:58.05,0:24:59.52,Subtitle,,0,0,0,,你想让我留下来吗?\N{\fs20}You want me to stay?{\r}
+Dialogue: 0,0:25:27.72,0:25:30.15,Subtitle,,0,0,0,,这真是一件艺术品\N{\fs20}A work of art, really.{\r}
+Dialogue: 0,0:25:30.19,0:25:32.02,Subtitle,,0,0,0,,手艺太出色了\N{\fs20}The craftsmanship is excellent.{\r}
+Dialogue: 0,0:25:32.05,0:25:33.45,Subtitle,,0,0,0,,你这么喜欢它\N{\fs20}You like it so much,{\r}
+Dialogue: 0,0:25:33.47,0:25:35.44,Subtitle,,0,0,0,,欢迎你砍下自己的手 收下它\N{\fs20}you're welcome to chop off your own hand and take it.{\r}
+Dialogue: 0,0:25:35.53,0:25:37.43,Subtitle,,0,0,0,,真是个忘恩负义的家伙 我和金匠花了几天时间\N{\fs20}Such an ingrate. I spent days with the goldsmith{\r}
+Dialogue: 0,0:25:37.46,0:25:40.06,Subtitle,,0,0,0,,- 确保细节万无一失 - 几天?\N{\fs20}- getting the details just right. - Days?{\r}
+Dialogue: 0,0:25:40.60,0:25:43.00,Subtitle,,0,0,0,,大半个下午\N{\fs20}Better part of an afternoon.{\r}
+Dialogue: 0,0:25:43.03,0:25:45.67,Subtitle,,0,0,0,,感觉如何?\N{\fs20}There, how does that feel?{\r}
+Dialogue: 0,0:25:45.70,0:25:47.54,Subtitle,,0,0,0,,额...\N{\fs20}Uh...{\r}
+Dialogue: 0,0:25:47.57,0:25:49.80,Subtitle,,0,0,0,,换成钩子会更实用\N{\fs20}a hook would be more practical.{\r}
+Dialogue: 0,0:25:49.84,0:25:51.71,Subtitle,,0,0,0,,我觉得很优雅\N{\fs20}Elegant, I think.{\r}
+Dialogue: 0,0:25:57.81,0:25:59.41,Subtitle,,0,0,0,,关于另一件事 谢谢你的帮忙\N{\fs20}Thank you for your help with the other matter.{\r}
+Dialogue: 0,0:25:59.48,0:26:01.65,Subtitle,,0,0,0,,- 症状消退了? - 完全消退了\N{\fs20}- The symptoms have abated? - Gone completely.{\r}
+Dialogue: 0,0:26:01.68,0:26:03.18,Subtitle,,0,0,0,,非常感谢 科本学士\N{\fs20}I am in your debt, Maester Qyburn.{\r}
+Dialogue: 0,0:26:03.22,0:26:05.55,Subtitle,,0,0,0,,陛下 我不是学士 但乐意效劳\N{\fs20}Not a maester, Your Grace, but happy to help{\r}
+Dialogue: 0,0:26:05.59,0:26:07.46,Subtitle,,0,0,0,,随时找我都可以\N{\fs20}whenever I can.{\r}
+Dialogue: 0,0:26:16.67,0:26:18.07,Subtitle,,0,0,0,,奇怪的小老头\N{\fs20}Odd little man.{\r}
+Dialogue: 0,0:26:18.10,0:26:20.07,Subtitle,,0,0,0,,我越来越喜欢他了\N{\fs20}I've grown rather fond of him.{\r}
+Dialogue: 0,0:26:20.10,0:26:22.00,Subtitle,,0,0,0,,你知道吗 他很有才华?\N{\fs20}He's quite talented, you know?{\r}
+Dialogue: 0,0:26:22.04,0:26:23.67,Subtitle,,0,0,0,,什么症状?\N{\fs20}What symptoms?{\r}
+Dialogue: 0,0:26:23.71,0:26:26.04,Subtitle,,0,0,0,,与你无关的症状\N{\fs20}Symptoms that are not your concern.{\r}
+Dialogue: 0,0:26:26.08,0:26:28.31,Subtitle,,0,0,0,,你让他摸你了?\N{\fs20}You let him touch you?{\r}
+Dialogue: 0,0:26:28.34,0:26:30.51,Subtitle,,0,0,0,,你嫉妒了?\N{\fs20}You jealous?{\r}
+Dialogue: 0,0:26:30.55,0:26:32.25,Subtitle,,0,0,0,,我很吃惊\N{\fs20}I'm surprised.{\r}
+Dialogue: 0,0:26:32.28,0:26:33.68,Subtitle,,0,0,0,,你从没让派席尔靠近你\N{\fs20}You never let Pycelle near you.{\r}
+Dialogue: 0,0:26:33.72,0:26:35.85,Subtitle,,0,0,0,,你以为我会让那个老色鬼\N{\fs20}You think I'd let that old lecher{\r}
+Dialogue: 0,0:26:35.88,0:26:38.12,Subtitle,,0,0,0,,把手放到我身上?\N{\fs20}put his hands on me?{\r}
+Dialogue: 0,0:26:39.36,0:26:40.72,Subtitle,,0,0,0,,他闻起来像只死猫\N{\fs20}He smells like a dead cat.{\r}
+Dialogue: 0,0:26:40.76,0:26:43.12,Subtitle,,0,0,0,,我不觉得自己闻过死猫\N{\fs20}I'm not sure I've ever smelled a dead cat.{\r}
+Dialogue: 0,0:26:43.16,0:26:45.36,Subtitle,,0,0,0,,它们闻起来像派席尔\N{\fs20}Well, they smell like Pycelle.{\r}
+Dialogue: 0,0:26:45.39,0:26:48.10,Subtitle,,0,0,0,,你比以前喝得多了\N{\fs20}You drink more than you used to.{\r}
+Dialogue: 0,0:26:48.13,0:26:50.16,Subtitle,,0,0,0,,- 对 - 为什么?\N{\fs20}- Yes. - Why?{\r}
+Dialogue: 0,0:26:50.20,0:26:54.44,Subtitle,,0,0,0,,让我想想 你在街上和奈德·史塔克斗殴\N{\fs20}Let's see, you started a brawl in the streets with Ned Stark{\r}
+Dialogue: 0,0:26:54.47,0:26:56.57,Subtitle,,0,0,0,,然后从君临城消失\N{\fs20}and disappeared from the capital.{\r}
+Dialogue: 0,0:26:56.61,0:26:59.14,Subtitle,,0,0,0,,我丈夫死于一次悲剧的打猎事故\N{\fs20}My husband died in a tragic hunting accident.{\r}
+Dialogue: 0,0:26:59.17,0:27:00.88,Subtitle,,0,0,0,,你一定很痛苦\N{\fs20}It must have been traumatic for you.{\r}
+Dialogue: 0,0:27:00.91,0:27:02.31,Subtitle,,0,0,0,,我唯一的女儿被送往多恩\N{\fs20}My only daughter was shipped off to Dorne.{\r}
+Dialogue: 0,0:27:02.34,0:27:03.98,Subtitle,,0,0,0,,我们遭遇了一次围城\N{\fs20}We suffered through a siege.{\r}
+Dialogue: 0,0:27:04.01,0:27:05.65,Subtitle,,0,0,0,,一次很短的围城\N{\fs20}A rather short siege.{\r}
+Dialogue: 0,0:27:05.68,0:27:08.02,Subtitle,,0,0,0,,一次很短的围城 但我以为活不了了\N{\fs20}A rather short siege that I didn't expect to survive.{\r}
+Dialogue: 0,0:27:08.05,0:27:09.98,Subtitle,,0,0,0,,现在我的长子即将迎娶\N{\fs20}And now I'm marrying my eldest son{\r}
+Dialogue: 0,0:27:10.02,0:27:12.15,Subtitle,,0,0,0,,高庭那个邪恶的小婊子\N{\fs20}to a wicked little bitch from Highgarden{\r}
+Dialogue: 0,0:27:12.19,0:27:14.29,Subtitle,,0,0,0,,而我要嫁给她的哥哥\N{\fs20}while I'm supposed to marry her brother,{\r}
+Dialogue: 0,0:27:14.32,0:27:16.92,Subtitle,,0,0,0,,一个众人皆知的同性恋 所以...\N{\fs20}a renowned pillow biter. So...{\r}
+Dialogue: 0,0:27:16.96,0:27:19.53,Subtitle,,0,0,0,,父亲今天和我断绝关系了\N{\fs20}Father disowned me today.{\r}
+Dialogue: 0,0:27:19.56,0:27:21.93,Subtitle,,0,0,0,,他不能和你断绝关系 他只有你\N{\fs20}He can't disown you. You're all he's got.{\r}
+Dialogue: 0,0:27:21.96,0:27:24.43,Subtitle,,0,0,0,,你忘了提利昂\N{\fs20}You're forgetting Tyrion.{\r}
+Dialogue: 0,0:27:24.47,0:27:28.20,Subtitle,,0,0,0,,你不会真打算留在御林铁卫中吧?\N{\fs20}You don't really plan on staying in the Kingsguard, do you?{\r}
+Dialogue: 0,0:27:32.04,0:27:35.71,Subtitle,,0,0,0,,留在御林铁卫中就意味着我可以住在这里\N{\fs20}Staying in the Kingsguard means I live right here{\r}
+Dialogue: 0,0:27:35.74,0:27:38.08,Subtitle,,0,0,0,,和你一起待在红堡里\N{\fs20}in the Red Keep with you.{\r}
+Dialogue: 0,0:27:39.58,0:27:41.38,Subtitle,,0,0,0,,- 现在不行 - 我想——\N{\fs20}- Not now. - I want--{\r}
+Dialogue: 0,0:27:41.42,0:27:44.62,Subtitle,,0,0,0,,现在不行? 那什么时候? 我都回来几周了\N{\fs20}Not now? When? I've been back for weeks.{\r}
+Dialogue: 0,0:27:48.92,0:27:51.33,Subtitle,,0,0,0,,- 有些东西变了 - 一切都变了\N{\fs20}- Something's changed. - Everything's changed.{\r}
+Dialogue: 0,0:27:51.36,0:27:54.33,Subtitle,,0,0,0,,你离开了这么久 回来连句道歉的话都没有\N{\fs20}You come back after all this time with no apologies{\r}
+Dialogue: 0,0:27:54.36,0:27:56.86,Subtitle,,0,0,0,,而且只剩了一只手 怎么能指望一切都和原来一样?\N{\fs20}and one hand and expect everything to be the same?{\r}
+Dialogue: 0,0:27:56.90,0:27:58.20,Subtitle,,0,0,0,,你要我道什么歉?\N{\fs20}What do you want me to apologize for?{\r}
+Dialogue: 0,0:27:58.23,0:27:59.67,Subtitle,,0,0,0,,因为你离开了我\N{\fs20}For leaving me.{\r}
+Dialogue: 0,0:27:59.70,0:28:01.20,Subtitle,,0,0,0,,你以为我想当俘虏?\N{\fs20}You think I wanted to be taken prisoner?{\r}
+Dialogue: 0,0:28:01.24,0:28:03.14,Subtitle,,0,0,0,,我不知道你想要什么 当时你不在\N{\fs20}Don't know what you wanted. You weren't here.{\r}
+Dialogue: 0,0:28:03.17,0:28:05.71,Subtitle,,0,0,0,,你丢下我一人独自面对\N{\fs20}You left me alone.{\r}
+Dialogue: 0,0:28:05.74,0:28:09.34,Subtitle,,0,0,0,,在被囚禁的每一天里 每一天我都在计划着逃跑\N{\fs20}Every day I was a prisoner, I plotted my escape.{\r}
+Dialogue: 0,0:28:09.38,0:28:12.68,Subtitle,,0,0,0,,我曾为了为能与你重聚不惜杀人\N{\fs20}Every day. I murdered people so I could be here with you.{\r}
+Dialogue: 0,0:28:12.71,0:28:15.28,Subtitle,,0,0,0,,- 你花的时间太久 - 我……\N{\fs20}- You took too long. - I...{\r}
+Dialogue: 0,0:28:16.82,0:28:19.35,Subtitle,,0,0,0,,- 你说什么？ - 我说你花的时间太久\N{\fs20}- What are you saying? - I'm saying you took too long.{\r}
+Dialogue: 0,0:28:20.52,0:28:22.69,Subtitle,,0,0,0,,- 进来 - 退下\N{\fs20}- Come in. - Go away.{\r}
+Dialogue: 0,0:28:22.72,0:28:24.93,Subtitle,,0,0,0,,抱歉 太后陛下\N{\fs20}Forgive me, Your Grace.{\r}
+Dialogue: 0,0:28:24.96,0:28:28.53,Subtitle,,0,0,0,,您告诉我一有要事就即刻向您禀报\N{\fs20}You told me to come at once if there was anything important.{\r}
+Dialogue: 0,0:28:48.12,0:28:50.92,Subtitle,,0,0,0,,你打算一个人杀光所有的乌鸦？\N{\fs20}You plan on killing all the crows yourself?{\r}
+Dialogue: 0,0:28:52.82,0:28:55.66,Subtitle,,0,0,0,,那你是打算干坐着挠鸡巴等冬天来？\N{\fs20}Do you plan on sitting here scratching your balls till winter?{\r}
+Dialogue: 0,0:28:55.69,0:28:57.69,Subtitle,,0,0,0,,我们等曼斯的命令\N{\fs20}We wait for Mance's orders.{\r}
+Dialogue: 0,0:28:57.73,0:28:59.73,Subtitle,,0,0,0,,你在满月的时派了人去侦察长城\N{\fs20}You sent a man over the Wall at the full moon.{\r}
+Dialogue: 0,0:28:59.76,0:29:01.70,Subtitle,,0,0,0,,如果他到现在还没回来 那就再也不会回来了\N{\fs20}If he's not back yet, he's not coming back.{\r}
+Dialogue: 0,0:29:01.73,0:29:03.23,Subtitle,,0,0,0,,你打算怎么做？\N{\fs20}And what is it you want?{\r}
+Dialogue: 0,0:29:03.27,0:29:05.73,Subtitle,,0,0,0,,就带着这点人进军黑城堡？\N{\fs20}March on Castle Black with just this lot?{\r}
+Dialogue: 0,0:29:05.77,0:29:08.77,Subtitle,,0,0,0,,你那漂亮的小乌鸦说那里驻扎着一千人\N{\fs20}Your pretty crow said 1,000 men are nesting there.{\r}
+Dialogue: 0,0:29:08.80,0:29:10.54,Subtitle,,0,0,0,,是啊 但他是个骗子\N{\fs20}Yeah, well, he's a liar.{\r}
+Dialogue: 0,0:29:10.57,0:29:12.27,Subtitle,,0,0,0,,他是吗？\N{\fs20}He is?{\r}
+Dialogue: 0,0:29:12.31,0:29:14.64,Subtitle,,0,0,0,,不应该说“他曾是”吗？\N{\fs20}Shouldn't it be "he was"?{\r}
+Dialogue: 0,0:29:15.94,0:29:17.45,Subtitle,,0,0,0,,你说你射了他三箭\N{\fs20}You said you put three arrows in him.{\r}
+Dialogue: 0,0:29:17.48,0:29:19.11,Subtitle,,0,0,0,,是的\N{\fs20}I did.{\r}
+Dialogue: 0,0:29:19.15,0:29:22.72,Subtitle,,0,0,0,,我见过你把箭射进二百码开外的兔子眼睛里\N{\fs20}I've seen you slip a shaft through a rabbit's eye at 200 yards.{\r}
+Dialogue: 0,0:29:22.75,0:29:27.12,Subtitle,,0,0,0,,如果那小子还能走得动 说明你放了他一马\N{\fs20}If that boy's still walking, it's 'cause you let him go.{\r}
+Dialogue: 0,0:29:52.08,0:29:54.08,Subtitle,,0,0,0,,瑟恩人\N{\fs20}Thenns.{\r}
+Dialogue: 0,0:29:54.12,0:29:56.62,Subtitle,,0,0,0,,我他妈的烦死这群瑟恩人了\N{\fs20}I fucking hate Thenns.{\r}
+Dialogue: 0,0:30:07.13,0:30:08.70,Subtitle,,0,0,0,,曼斯派你们来？\N{\fs20}Mance sent you?{\r}
+Dialogue: 0,0:30:08.73,0:30:11.17,Subtitle,,0,0,0,,你们是怎么找到这的？\N{\fs20}How did you find us?{\r}
+Dialogue: 0,0:30:15.64,0:30:18.61,Subtitle,,0,0,0,,你们从南面来 而不是北面\N{\fs20}You came from the south, not the north.{\r}
+Dialogue: 0,0:30:18.64,0:30:20.98,Subtitle,,0,0,0,,绕了个道而已\N{\fs20}Took a detour.{\r}
+Dialogue: 0,0:30:21.01,0:30:24.45,Subtitle,,0,0,0,,在路上的村庄里搞了点补给\N{\fs20}Got some supper from a village down that way.{\r}
+Dialogue: 0,0:30:25.81,0:30:29.52,Subtitle,,0,0,0,,为何长城这边这地方的肉尝起来\N{\fs20}Why does the meat down here taste so much better{\r}
+Dialogue: 0,0:30:29.55,0:30:31.72,Subtitle,,0,0,0,,比我们那边的要好吃的多？\N{\fs20}than it does on our side of the Wall?{\r}
+Dialogue: 0,0:30:31.75,0:30:33.42,Subtitle,,0,0,0,,你请便\N{\fs20}Help yourself.{\r}
+Dialogue: 0,0:30:35.42,0:30:39.09,Subtitle,,0,0,0,,或许这边所有的牲口都被喂的更好\N{\fs20}Maybe everything's just better fed down here.{\r}
+Dialogue: 0,0:30:39.13,0:30:42.46,Subtitle,,0,0,0,,又肥又懒\N{\fs20}Fat and lazy.{\r}
+Dialogue: 0,0:30:42.50,0:30:45.77,Subtitle,,0,0,0,,便宜了我们 不是吗？\N{\fs20}Easier for us, hmm?{\r}
+Dialogue: 0,0:30:47.64,0:30:50.24,Subtitle,,0,0,0,,你没看到我们来？\N{\fs20}You didn't see us coming?{\r}
+Dialogue: 0,0:30:50.31,0:30:52.04,Subtitle,,0,0,0,,弄丢了你的易形者？\N{\fs20}Lost your warg?{\r}
+Dialogue: 0,0:30:53.71,0:30:56.98,Subtitle,,0,0,0,,还有曾在你身边的小乌鸦\N{\fs20}And that baby crow you had with you,{\r}
+Dialogue: 0,0:30:57.01,0:30:59.38,Subtitle,,0,0,0,,也弄丢了？\N{\fs20}lost him too?{\r}
+Dialogue: 0,0:31:01.25,0:31:03.52,Subtitle,,0,0,0,,我只回答曼斯\N{\fs20}I'll answer to Mance.{\r}
+Dialogue: 0,0:31:03.55,0:31:05.55,Subtitle,,0,0,0,,不用回答你\N{\fs20}I won't answer to you.{\r}
+Dialogue: 0,0:31:05.59,0:31:08.22,Subtitle,,0,0,0,,她是你的？\N{\fs20}She yours?{\r}
+Dialogue: 0,0:31:10.23,0:31:12.36,Subtitle,,0,0,0,,我不属于任何人\N{\fs20}I'm not anybody's.{\r}
+Dialogue: 0,0:31:21.64,0:31:23.50,Subtitle,,0,0,0,,真是皮包骨头\N{\fs20}Too scrawny.{\r}
+Dialogue: 0,0:31:23.54,0:31:27.17,Subtitle,,0,0,0,,不像黑城堡里的那些乌鸦\N{\fs20}Not like those crows at Castle Black.{\r}
+Dialogue: 0,0:31:27.21,0:31:30.95,Subtitle,,0,0,0,,想想他们窝在储藏食物的地方\N{\fs20}Think of them stuck in their larders{\r}
+Dialogue: 0,0:31:30.98,0:31:34.12,Subtitle,,0,0,0,,不停往嘴里塞火腿、血肠和炖菜\N{\fs20}stuffing their faces with ham and blood sausage{\r}
+Dialogue: 0,0:31:34.15,0:31:37.69,Subtitle,,0,0,0,,变得越来越肥美\N{\fs20}and stew, getting nice and fat{\r}
+Dialogue: 0,0:31:37.72,0:31:39.39,Subtitle,,0,0,0,,越来越迟钝\N{\fs20}and marbled.{\r}
+Dialogue: 0,0:31:39.42,0:31:43.32,Subtitle,,0,0,0,,我知道我们之间有分歧 托蒙德\N{\fs20}I know we've had our differences, Tormund,{\r}
+Dialogue: 0,0:31:43.36,0:31:47.70,Subtitle,,0,0,0,,但在你死之前 就这一次\N{\fs20}but just one time before you die,{\r}
+Dialogue: 0,0:31:47.73,0:31:51.90,Subtitle,,0,0,0,,你真应该尝尝乌鸦的滋味\N{\fs20}you really ought to try crow.{\r}
+Dialogue: 0,0:31:54.40,0:31:56.47,Subtitle,,0,0,0,,拉弓\N{\fs20}Draw.{\r}
+Dialogue: 0,0:31:56.51,0:31:58.41,Subtitle,,0,0,0,,放箭\N{\fs20}Loose.{\r}
+Dialogue: 0,0:32:05.08,0:32:06.48,Subtitle,,0,0,0,,上一次见他时\N{\fs20}Last time I saw him,{\r}
+Dialogue: 0,0:32:06.52,0:32:08.78,Subtitle,,0,0,0,,还是在临冬城的庭院\N{\fs20}he was in the courtyard at Winterfell.{\r}
+Dialogue: 0,0:32:10.89,0:32:13.22,Subtitle,,0,0,0,,他说 “下次再见到你\N{\fs20}He said, "Next time I see you,{\r}
+Dialogue: 0,0:32:13.26,0:32:16.12,Subtitle,,0,0,0,,你就会是一身黑衣了”\N{\fs20}you'll be all in black."{\r}
+Dialogue: 0,0:32:18.26,0:32:20.90,Subtitle,,0,0,0,,我的一生都在嫉妒罗柏\N{\fs20}I was jealous of Robb my whole life.{\r}
+Dialogue: 0,0:32:22.13,0:32:24.40,Subtitle,,0,0,0,,父亲看着他的那种目光\N{\fs20}The way my father looked at him,{\r}
+Dialogue: 0,0:32:24.43,0:32:26.40,Subtitle,,0,0,0,,我也想要他用同样的目光看着我\N{\fs20}I wanted that.{\r}
+Dialogue: 0,0:32:26.44,0:32:29.57,Subtitle,,0,0,0,,他什么都比我强\N{\fs20}He was better than me at everything--{\r}
+Dialogue: 0,0:32:31.17,0:32:34.14,Subtitle,,0,0,0,,武艺 狩猎\N{\fs20}fighting and hunting{\r}
+Dialogue: 0,0:32:34.18,0:32:36.78,Subtitle,,0,0,0,,骑马\N{\fs20}and riding{\r}
+Dialogue: 0,0:32:36.81,0:32:38.61,Subtitle,,0,0,0,,吸引女孩\N{\fs20}and girls.{\r}
+Dialogue: 0,0:32:38.65,0:32:41.68,Subtitle,,0,0,0,,诸神啊 女孩们都爱死他了\N{\fs20}Gods, the girls loved him.{\r}
+Dialogue: 0,0:32:42.98,0:32:45.99,Subtitle,,0,0,0,,我多想恨他 但我做不到\N{\fs20}I wanted to hate him, but I never could.{\r}
+Dialogue: 0,0:32:48.69,0:32:50.78,Subtitle,,0,0,0,,有时我也想恨你\N{\fs20}Sometimes I want to hate you.{\r}
+Dialogue: 0,0:32:53.63,0:32:56.78,Subtitle,,0,0,0,,呃 你在所有方面都比我强\N{\fs20}Well, you're better than me at everything.{\r}
+Dialogue: 0,0:32:58.53,0:33:00.57,Subtitle,,0,0,0,,除了读书\N{\fs20}Except reading.{\r}
+Dialogue: 0,0:33:02.90,0:33:06.78,Subtitle,,0,0,0,,他们——他们准备好见你了\N{\fs20}They're-- they're ready for you.{\r}
+Dialogue: 0,0:33:10.95,0:33:13.75,Subtitle,,0,0,0,,他早就想要吊死我了 现在他的机会来了\N{\fs20}He's wanted to hang me for a while. Now's his chance.{\r}
+Dialogue: 0,0:33:13.78,0:33:15.08,Subtitle,,0,0,0,,没人会吊死你的\N{\fs20}No one's going to hang you.{\r}
+Dialogue: 0,0:33:15.12,0:33:15.78,Subtitle,,0,0,0,,你没做过任何错事\N{\fs20}You've done nothing wrong.{\r}
+Dialogue: 0,0:33:16.62,0:33:19.49,Subtitle,,0,0,0,,我做了太多错事\N{\fs20}I've done plenty wrong.{\r}
+Dialogue: 0,0:33:20.82,0:33:23.78,Subtitle,,0,0,0,,你承认你谋害了半掌科林？\N{\fs20}So you admit you murdered Qhorin Halfhand?{\r}
+Dialogue: 0,0:33:24.13,0:33:25.83,Subtitle,,0,0,0,,我没谋害他\N{\fs20}I didn't murder him.{\r}
+Dialogue: 0,0:33:25.86,0:33:28.33,Subtitle,,0,0,0,,没有？你用你的剑\N{\fs20}No? You put your sword{\r}
+Dialogue: 0,0:33:28.36,0:33:30.30,Subtitle,,0,0,0,,刺穿守夜人弟兄的身体\N{\fs20}through a brother of the Night's Watch.{\r}
+Dialogue: 0,0:33:30.33,0:33:31.78,Subtitle,,0,0,0,,你管那叫啥？\N{\fs20}What do you call that?{\r}
+Dialogue: 0,0:33:32.40,0:33:34.50,Subtitle,,0,0,0,,他要我杀了他\N{\fs20}He wanted me to kill him.{\r}
+Dialogue: 0,0:33:34.54,0:33:36.34,Subtitle,,0,0,0,,一个叛徒杂种\N{\fs20}A bastard son of a traitor.{\r}
+Dialogue: 0,0:33:36.37,0:33:37.77,Subtitle,,0,0,0,,你还能指望啥？\N{\fs20}What would you expect?{\r}
+Dialogue: 0,0:33:37.81,0:33:39.71,Subtitle,,0,0,0,,半掌认为我们要阻止曼斯的唯一办法\N{\fs20}The Halfhand believed our only chance{\r}
+Dialogue: 0,0:33:39.74,0:33:42.01,Subtitle,,0,0,0,,就是在他的军中安插内应打探实情\N{\fs20}to stop Mance was to get a man inside his army.{\r}
+Dialogue: 0,0:33:42.04,0:33:44.07,Subtitle,,0,0,0,,不要这样谈论半掌 好像你有多了解他\N{\fs20}Don't talk about the Halfhand as if you knew him.{\r}
+Dialogue: 0,0:33:44.15,0:33:45.30,Subtitle,,0,0,0,,他曾是我的弟兄\N{\fs20}He was my brother.{\r}
+Dialogue: 0,0:33:45.35,0:33:47.78,Subtitle,,0,0,0,,那你就该知道他会不惜一切保卫长城\N{\fs20}Then you'd know he'd do anything to defend the Wall.{\r}
+Dialogue: 0,0:33:48.18,0:33:50.99,Subtitle,,0,0,0,,自由民本想可以他活烹 但最后却让我杀了他……\N{\fs20}The free folk would have boiled him alive, but letting me kill him...{\r}
+Dialogue: 0,0:33:51.02,0:33:53.15,Subtitle,,0,0,0,,自由民？听听他这口气\N{\fs20}The free folk? Listen to him.{\r}
+Dialogue: 0,0:33:53.19,0:33:55.72,Subtitle,,0,0,0,,连说话都像个野人了\N{\fs20}He even talks like a wildling now.{\r}
+Dialogue: 0,0:33:55.76,0:33:58.49,Subtitle,,0,0,0,,是的 我说话像野人 我和野人一起吃饭\N{\fs20}Aye, I talk like a wildling. I ate with the wildlings.{\r}
+Dialogue: 0,0:33:58.53,0:34:01.13,Subtitle,,0,0,0,,我和野人一起翻过长城 我——\N{\fs20}I climbed the Wall with the wildlings. I--{\r}
+Dialogue: 0,0:34:02.80,0:34:04.60,Subtitle,,0,0,0,,我和野人姑娘睡觉\N{\fs20}I laid with a wildling girl.{\r}
+Dialogue: 0,0:34:06.94,0:34:09.30,Subtitle,,0,0,0,,你承认打破了誓言？\N{\fs20}You admit to breaking your vows, then?{\r}
+Dialogue: 0,0:34:10.27,0:34:11.61,Subtitle,,0,0,0,,我承认\N{\fs20}I do.{\r}
+Dialogue: 0,0:34:11.64,0:34:15.58,Subtitle,,0,0,0,,律法就是律法 这个小子必须得死\N{\fs20}The law is the law. The boy must die.{\r}
+Dialogue: 0,0:34:15.61,0:34:19.75,Subtitle,,0,0,0,,如果我们把每个跟女孩子上床的游骑兵都抓来砍头\N{\fs20}If we beheaded every ranger who lay with a girl,{\r}
+Dialogue: 0,0:34:19.78,0:34:22.78,Subtitle,,0,0,0,,那长城只能由无头士兵来把守了\N{\fs20}the Wall would be manned by headless men.{\r}
+Dialogue: 0,0:34:23.55,0:34:25.69,Subtitle,,0,0,0,,去鼹鼠村妓院溜个号是一码事\N{\fs20}There's a difference between sneaking off{\r}
+Dialogue: 0,0:34:25.72,0:34:29.52,Subtitle,,0,0,0,,与敌人同床共枕又是另外一码事了\N{\fs20}to the Mole's Town brothel and sleeping with the enemy.{\r}
+Dialogue: 0,0:34:30.43,0:34:31.99,Subtitle,,0,0,0,,就在这当口我们坐这儿\N{\fs20}While we sit here{\r}
+Dialogue: 0,0:34:32.03,0:34:33.78,Subtitle,,0,0,0,,为我打破了那条规矩争论不休\N{\fs20}debating which rules I broke,{\r}
+Dialogue: 0,0:34:34.50,0:34:37.78,Subtitle,,0,0,0,,而曼斯雷德正带着十万大军向长城进发\N{\fs20}Mance Rayder marches on the Wall with an army of 100,000.{\r}
+Dialogue: 0,0:34:38.07,0:34:39.47,Subtitle,,0,0,0,,不可能\N{\fs20}Impossible.{\r}
+Dialogue: 0,0:34:39.50,0:34:41.67,Subtitle,,0,0,0,,没有人聚起数目超过50的野人群体\N{\fs20}You can't get 50 wildlings together{\r}
+Dialogue: 0,0:34:41.70,0:34:43.20,Subtitle,,0,0,0,,他们还没走到一起就开始互相残杀\N{\fs20}before they start killing each other.{\r}
+Dialogue: 0,0:34:43.24,0:34:46.61,Subtitle,,0,0,0,,十万 他统一了瑟恩人\N{\fs20}100,000. He's united the Thenns,{\r}
+Dialogue: 0,0:34:46.64,0:34:48.24,Subtitle,,0,0,0,,硬足民 冰川部落\N{\fs20}the Hornfoots, the ice-river clans.{\r}
+Dialogue: 0,0:34:48.28,0:34:49.74,Subtitle,,0,0,0,,还有巨人为他作战\N{\fs20}He has giants fighting for him.{\r}
+Dialogue: 0,0:34:49.78,0:34:51.85,Subtitle,,0,0,0,,巨人？\N{\fs20}Giants?{\r}
+Dialogue: 0,0:34:53.05,0:34:55.28,Subtitle,,0,0,0,,你到过长城之外吗 爵士？\N{\fs20}Have you ever been beyond the Wall, ser?{\r}
+Dialogue: 0,0:34:55.32,0:34:57.45,Subtitle,,0,0,0,,我指挥过君临的都城守备队 小子\N{\fs20}I commanded the City Watch of King's Landing, boy.{\r}
+Dialogue: 0,0:34:57.49,0:34:58.38,Subtitle,,0,0,0,,而现在你在这\N{\fs20}And now you're here.{\r}
+Dialogue: 0,0:34:58.41,0:35:00.32,Subtitle,,0,0,0,,你肯定不太擅长你的工作\N{\fs20}You must not have been very good at your job.{\r}
+Dialogue: 0,0:35:00.32,0:35:01.52,Subtitle,,0,0,0,,大胆！\N{\fs20}How dare you?!{\r}
+Dialogue: 0,0:35:01.56,0:35:04.66,Subtitle,,0,0,0,,长城南边已经有一队野人了\N{\fs20}There's a band of wildlings south of the Wall already{\r}
+Dialogue: 0,0:35:04.69,0:35:06.73,Subtitle,,0,0,0,,由巨人杀手托蒙德带领\N{\fs20}led by Tormund Giantsbane.{\r}
+Dialogue: 0,0:35:06.76,0:35:07.78,Subtitle,,0,0,0,,我杀了他们的易形者和另外三个人\N{\fs20}I killed their warg and three others.{\r}
+Dialogue: 0,0:35:08.50,0:35:10.80,Subtitle,,0,0,0,,他们留给我满身的箭\N{\fs20}They shot me full of arrows.{\r}
+Dialogue: 0,0:35:12.30,0:35:14.44,Subtitle,,0,0,0,,曼斯命令他们从南面进攻黑城堡\N{\fs20}Their orders are to attack Castle Black from the south{\r}
+Dialogue: 0,0:35:14.47,0:35:16.77,Subtitle,,0,0,0,,而他在北边响应\N{\fs20}when Mance hits it from the north.{\r}
+Dialogue: 0,0:35:16.81,0:35:19.31,Subtitle,,0,0,0,,进攻的信号是篝火\N{\fs20}The signal for the attack will be a bonfire.{\r}
+Dialogue: 0,0:35:19.34,0:35:21.68,Subtitle,,0,0,0,,曼斯说那将会是\N{\fs20}Mance said it would be the greatest fire{\r}
+Dialogue: 0,0:35:21.71,0:35:23.11,Subtitle,,0,0,0,,北境前所未见的大火\N{\fs20}the North has ever seen.{\r}
+Dialogue: 0,0:35:23.14,0:35:25.78,Subtitle,,0,0,0,,这是真的\N{\fs20}That's the truth.{\r}
+Dialogue: 0,0:35:25.81,0:35:27.55,Subtitle,,0,0,0,,我说的都是真的\N{\fs20}All the truth.{\r}
+Dialogue: 0,0:35:31.72,0:35:35.39,Subtitle,,0,0,0,,你们是打算处决我还是放我自由？\N{\fs20}Do you intend to execute me or am I free to go?{\r}
+Dialogue: 0,0:35:35.42,0:35:37.73,Subtitle,,0,0,0,,我们中没有人是自由的\N{\fs20}None of us are free.{\r}
+Dialogue: 0,0:35:37.76,0:35:39.59,Subtitle,,0,0,0,,我们是守夜人\N{\fs20}We are men of the Night's Watch.{\r}
+Dialogue: 0,0:35:39.63,0:35:43.93,Subtitle,,0,0,0,,但我们不会现在就要你的脑袋 琼恩·雪诺\N{\fs20}But we won't be taking your head today, Jon Snow.{\r}
+Dialogue: 0,0:35:43.97,0:35:45.50,Subtitle,,0,0,0,,你走吧\N{\fs20}Go on.{\r}
+Dialogue: 0,0:35:56.21,0:35:58.71,Subtitle,,0,0,0,,现在我是这儿的指挥官 伊蒙师傅\N{\fs20}I am acting commander here, Maester Aemon.{\r}
+Dialogue: 0,0:35:58.75,0:36:00.61,Subtitle,,0,0,0,,是的 你是\N{\fs20}Yes, you are.{\r}
+Dialogue: 0,0:36:00.65,0:36:02.52,Subtitle,,0,0,0,,而我不相信这个杂种\N{\fs20}And I don't trust the bastard.{\r}
+Dialogue: 0,0:36:02.55,0:36:05.59,Subtitle,,0,0,0,,他说的都是真话\N{\fs20}He told the truth.{\r}
+Dialogue: 0,0:36:05.62,0:36:07.79,Subtitle,,0,0,0,,你总是能知道一个人是否在说谎？\N{\fs20}And you always know when a man's telling a lie?{\r}
+Dialogue: 0,0:36:07.82,0:36:10.16,Subtitle,,0,0,0,,你是从何处得到这种魔法的？\N{\fs20}How did you acquire this magical power?{\r}
+Dialogue: 0,0:36:11.99,0:36:14.73,Subtitle,,0,0,0,,我在君临长大\N{\fs20}I grew up in King's Landing.{\r}
+Dialogue: 0,0:36:18.07,0:36:19.78,Subtitle,,0,0,0,,不行 不行\N{\fs20}No. No.{\r}
+Dialogue: 0,0:36:20.14,0:36:22.84,Subtitle,,0,0,0,,你是王后 不是公牛\N{\fs20}You're a queen, not an ox.{\r}
+Dialogue: 0,0:36:22.87,0:36:26.17,Subtitle,,0,0,0,,你祖父在我第五十一个命名日送了条项链给我\N{\fs20}Your grandfather gave me a necklace{\r}
+Dialogue: 0,0:36:26.21,0:36:29.58,Subtitle,,0,0,0,,和这条几乎一模一样\N{\fs20}just like this one for my 51st nameday.{\r}
+Dialogue: 0,0:36:31.11,0:36:33.21,Subtitle,,0,0,0,,婚礼已经不到半个月了 祖母\N{\fs20}The wedding is in a fortnight, Grandmother.{\r}
+Dialogue: 0,0:36:33.25,0:36:35.28,Subtitle,,0,0,0,,您不能对所有的都不满意\N{\fs20}You can't say no to everything.{\r}
+Dialogue: 0,0:36:35.32,0:36:37.95,Subtitle,,0,0,0,,胡说 我亲爱的\N{\fs20}Nonsense. My little dears.{\r}
+Dialogue: 0,0:36:37.99,0:36:40.96,Subtitle,,0,0,0,,去找君临的珠宝匠们谈谈\N{\fs20}Go and speak to the jewelers of King's Landing.{\r}
+Dialogue: 0,0:36:40.99,0:36:43.56,Subtitle,,0,0,0,,告诉他们你们是谁 告诉他们谁派你们来的\N{\fs20}Tell them who you are, tell them who sent you.{\r}
+Dialogue: 0,0:36:43.59,0:36:45.76,Subtitle,,0,0,0,,谁带给我最好的项链\N{\fs20}The one who brings me the best necklace{\r}
+Dialogue: 0,0:36:45.79,0:36:48.43,Subtitle,,0,0,0,,我就把第二好的那条给她\N{\fs20}will get to keep the next best.{\r}
+Dialogue: 0,0:36:52.77,0:36:55.47,Subtitle,,0,0,0,,半个月后玛格丽·提利尔走进圣堂的那一刻\N{\fs20}The Margaery Tyrell who walks into the sept{\r}
+Dialogue: 0,0:36:55.50,0:36:59.01,Subtitle,,0,0,0,,会为歌手诗人带来灵感 作出一千首歌供人传唱\N{\fs20}a fortnight from now will inspire 1,000 songs.{\r}
+Dialogue: 0,0:36:59.04,0:37:02.48,Subtitle,,0,0,0,,要是她戴着这样的破烂那会多令人悲伤\N{\fs20}Now, how sad it will be if she's wearing rubbish like that.{\r}
+Dialogue: 0,0:37:02.51,0:37:05.95,Subtitle,,0,0,0,,或许我该让乔佛里替我选\N{\fs20}Perhaps I should just let Joffrey choose it for me.{\r}
+Dialogue: 0,0:37:05.98,0:37:08.25,Subtitle,,0,0,0,,他会给我挑一串麻雀的脑袋挂在我的脖子上\N{\fs20}End up with a string of dead sparrow heads around my neck.{\r}
+Dialogue: 0,0:37:08.28,0:37:11.85,Subtitle,,0,0,0,,你给我说话小心点 即便在此 和我一起\N{\fs20}You watch that. Even here, even with me.{\r}
+Dialogue: 0,0:37:13.36,0:37:15.92,Subtitle,,0,0,0,,我的天哪\N{\fs20}My word.{\r}
+Dialogue: 0,0:37:15.96,0:37:18.63,Subtitle,,0,0,0,,小姐 夫人\N{\fs20}My lady. My lady.{\r}
+Dialogue: 0,0:37:18.66,0:37:21.63,Subtitle,,0,0,0,,请原谅我的打扰\N{\fs20}Please pardon me for interrupting.{\r}
+Dialogue: 0,0:37:21.66,0:37:22.78,Subtitle,,0,0,0,,我是塔斯的布蕾妮\N{\fs20}My name is Brienne of Tarth.{\r}
+Dialogue: 0,0:37:23.50,0:37:25.13,Subtitle,,0,0,0,,我们知道你是谁 我们总是听人说起你\N{\fs20}We know who you are. We've heard all about you.{\r}
+Dialogue: 0,0:37:25.17,0:37:27.70,Subtitle,,0,0,0,,但听过是一回事\N{\fs20}But hearing is one thing.{\r}
+Dialogue: 0,0:37:27.74,0:37:30.40,Subtitle,,0,0,0,,亲眼所见不更是了不得？\N{\fs20}Aren't you just marvelous?{\r}
+Dialogue: 0,0:37:30.44,0:37:33.74,Subtitle,,0,0,0,,你可真是非同一般\N{\fs20}Absolutely singular.{\r}
+Dialogue: 0,0:37:33.78,0:37:36.34,Subtitle,,0,0,0,,我听说你把我那孙子打倒在地\N{\fs20}I hear you knocked my grandson into the dirt{\r}
+Dialogue: 0,0:37:36.38,0:37:39.58,Subtitle,,0,0,0,,让他像个出尽洋相的傻小子\N{\fs20}like the silly little boy he is.{\r}
+Dialogue: 0,0:37:39.61,0:37:42.02,Subtitle,,0,0,0,,小姐 我知道您现在很忙\N{\fs20}My lady, I know this is a very busy time for you,{\r}
+Dialogue: 0,0:37:42.05,0:37:44.75,Subtitle,,0,0,0,,但是我还是想占用您一点时间\N{\fs20}but if I could just have a moment.{\r}
+Dialogue: 0,0:37:45.89,0:37:47.79,Subtitle,,0,0,0,,你可没有拒绝她的胆子\N{\fs20}You dare not refuse.{\r}
+Dialogue: 0,0:37:50.43,0:37:51.89,Subtitle,,0,0,0,,一个影子\N{\fs20}A shadow?{\r}
+Dialogue: 0,0:37:51.93,0:37:54.53,Subtitle,,0,0,0,,一个有着史坦尼斯·拜拉席恩的面容的影子\N{\fs20}A shadow with the face of Stannis Baratheon.{\r}
+Dialogue: 0,0:37:55.83,0:37:59.83,Subtitle,,0,0,0,,我以诸神的名义向您发誓那是史坦尼斯\N{\fs20}I swear to you by all the gods it was Stannis.{\r}
+Dialogue: 0,0:37:59.87,0:38:02.60,Subtitle,,0,0,0,,他把剑穿过蓝礼的心脏\N{\fs20}He plunged his sword through Renly's heart{\r}
+Dialogue: 0,0:38:02.64,0:38:05.14,Subtitle,,0,0,0,,然后消失不见了\N{\fs20}and disappeared.{\r}
+Dialogue: 0,0:38:05.17,0:38:08.08,Subtitle,,0,0,0,,总有一天 小姐 我会为我们的国王报仇的\N{\fs20}One day, my lady, I will avenge our king.{\r}
+Dialogue: 0,0:38:08.11,0:38:10.41,Subtitle,,0,0,0,,乔佛里现在是我们的国王了\N{\fs20}Joffrey is our king now.{\r}
+Dialogue: 0,0:38:10.45,0:38:12.61,Subtitle,,0,0,0,,我无意冒犯您\N{\fs20}I meant no offense.{\r}
+Dialogue: 0,0:38:12.65,0:38:14.52,Subtitle,,0,0,0,,你没有冒犯我\N{\fs20}And you've given none.{\r}
+Dialogue: 0,0:38:23.83,0:38:26.03,Subtitle,,0,0,0,,当然了 所有御林铁卫都将出动\N{\fs20}All the Kingsguard will be on duty, of course.{\r}
+Dialogue: 0,0:38:26.06,0:38:27.78,Subtitle,,0,0,0,,柏洛斯爵士的位置是这里\N{\fs20}Ser Boros will be stationed here.{\r}
+Dialogue: 0,0:38:27.90,0:38:29.78,Subtitle,,0,0,0,,普列斯顿爵士的位置是这里\N{\fs20}Ser Preston will be stationed here{\r}
+Dialogue: 0,0:38:29.90,0:38:32.78,Subtitle,,0,0,0,,在主要娱乐项目附近\N{\fs20}beside the primary entertainment.{\r}
+Dialogue: 0,0:38:34.50,0:38:36.87,Subtitle,,0,0,0,,陛下？\N{\fs20}Your Grace?{\r}
+Dialogue: 0,0:38:36.91,0:38:39.47,Subtitle,,0,0,0,,嗯 嗯 一名铁卫——\N{\fs20}Yes, yes, one guard at the--{\r}
+Dialogue: 0,0:38:39.54,0:38:41.31,Subtitle,,0,0,0,,那啥 继续\N{\fs20}the thing. Go on.{\r}
+Dialogue: 0,0:38:41.34,0:38:43.78,Subtitle,,0,0,0,,马林爵士要守护玛格丽女士和托曼\N{\fs20}Ser Meryn will guard Lady Margaery and Tommen.{\r}
+Dialogue: 0,0:38:44.58,0:38:47.21,Subtitle,,0,0,0,,以前一直是由我来守护国王的 大人\N{\fs20}I've always guarded the king himself, my lord.{\r}
+Dialogue: 0,0:38:47.25,0:38:49.45,Subtitle,,0,0,0,,自从您缺席以来\N{\fs20}Ever since your absence.{\r}
+Dialogue: 0,0:38:49.48,0:38:51.55,Subtitle,,0,0,0,,为此我得感谢你 马林爵士\N{\fs20}And I thank you for it, Ser Meryn.{\r}
+Dialogue: 0,0:38:51.59,0:38:54.29,Subtitle,,0,0,0,,一切好得很 我看不见得有什么麻烦\N{\fs20}All very good. I don't expect any trouble.{\r}
+Dialogue: 0,0:38:54.32,0:38:55.78,Subtitle,,0,0,0,,民众爱戴他们的国王\N{\fs20}The people love their king.{\r}
+Dialogue: 0,0:38:56.12,0:38:57.62,Subtitle,,0,0,0,,他们知道谁填饱了他们的肚子\N{\fs20}They know who keeps them fed.{\r}
+Dialogue: 0,0:38:57.66,0:38:59.66,Subtitle,,0,0,0,,我听说是玛格丽·提利尔\N{\fs20}Margaery Tyrell, I've heard.{\r}
+Dialogue: 0,0:39:01.13,0:39:02.66,Subtitle,,0,0,0,,在我的允许下\N{\fs20}By my leave.{\r}
+Dialogue: 0,0:39:02.70,0:39:05.87,Subtitle,,0,0,0,,他们知道是我拯救了这座城市 他们知道是我赢下了这场战争\N{\fs20}They know I saved the city. They know I won the war.{\r}
+Dialogue: 0,0:39:05.90,0:39:07.78,Subtitle,,0,0,0,,战争可还没赢呢 史坦尼斯还活着\N{\fs20}The war's not won. Not while Stannis lives.{\r}
+Dialogue: 0,0:39:07.90,0:39:10.27,Subtitle,,0,0,0,,我在黑水河上粉碎了史坦尼斯的军队\N{\fs20}I broke Stannis on the Blackwater.{\r}
+Dialogue: 0,0:39:10.31,0:39:11.78,Subtitle,,0,0,0,,可惜你没能帮上忙 舅舅\N{\fs20}Pity you weren't there to help, Uncle.{\r}
+Dialogue: 0,0:39:12.74,0:39:15.48,Subtitle,,0,0,0,,很抱歉 国王陛下 我当时正忙着呢\N{\fs20}My apologies, Your Grace. I was rather busy.{\r}
+Dialogue: 0,0:39:15.51,0:39:17.71,Subtitle,,0,0,0,,忙着被抓\N{\fs20}Busy getting captured.{\r}
+Dialogue: 0,0:39:19.08,0:39:21.75,Subtitle,,0,0,0,,这就是著名的“兄弟之书”？\N{\fs20}So this is the famous "Book of Brothers"?{\r}
+Dialogue: 0,0:39:21.78,0:39:24.75,Subtitle,,0,0,0,,记录那些伟大的御林铁卫的丰功伟绩\N{\fs20}All the great deeds of all the great Kingsguard.{\r}
+Dialogue: 0,0:39:27.46,0:39:30.78,Subtitle,,0,0,0,,亚瑟·戴恩爵士 拂晓神剑\N{\fs20}Ser Arthur Dayne. The Sword of the Morning.{\r}
+Dialogue: 0,0:39:32.76,0:39:35.90,Subtitle,,0,0,0,,率军攻打御林兄弟会\N{\fs20}Led the attack on the Kingswood Brotherhood.{\r}
+Dialogue: 0,0:39:35.93,0:39:38.27,Subtitle,,0,0,0,,在单打独斗中击败了微笑骑士\N{\fs20}Defeated the Smiling Knight in single combat.{\r}
+Dialogue: 0,0:39:38.30,0:39:41.03,Subtitle,,0,0,0,,“高个”邓肯爵士\N{\fs20}Ser Duncan the Tall.{\r}
+Dialogue: 0,0:39:43.00,0:39:45.47,Subtitle,,0,0,0,,邓肯爵士有整整四页\N{\fs20}Four pages for Ser Duncan.{\r}
+Dialogue: 0,0:39:45.51,0:39:47.07,Subtitle,,0,0,0,,他肯定是个人物\N{\fs20}He must have been quite a man.{\r}
+Dialogue: 0,0:39:47.11,0:39:48.94,Subtitle,,0,0,0,,人们都这么说\N{\fs20}So they say.{\r}
+Dialogue: 0,0:39:51.15,0:39:53.45,Subtitle,,0,0,0,,詹姆·兰尼斯特爵士\N{\fs20}Ser Jaime Lannister.{\r}
+Dialogue: 0,0:39:57.39,0:40:00.52,Subtitle,,0,0,0,,看来人们忘了写下你的功绩了呀\N{\fs20}Someone forgot to write down all your great deeds.{\r}
+Dialogue: 0,0:39:56.06,0:39:57.73,Titles_L,,0,0,0,,{\frz-14\pos(560,193)\fad(100,0)}詹姆•兰尼斯特 爵士
+Dialogue: 0,0:39:56.06,0:39:57.73,Titles_L,,0,0,0,,{\frz-14\fs18\pos(446,329)\fad(100,0)}作为巴利斯坦·赛尔弥的侍从参与\N平定御林兄弟会之战。因战斗勇猛，\N年仅十六岁即在战场受封为骑士，\N不久被任命为御林铁卫。\N君临之战中，弑君伊里斯二世于铁\N王座之下。被新国王劳勃•拜拉席恩\N赦免。人称弑君者。
+Dialogue: 0,0:40:00.56,0:40:03.49,Subtitle,,0,0,0,,- 还有的是时间 - 有吗？\N{\fs20}- There's still time. - Is there?{\r}
+Dialogue: 0,0:40:03.53,0:40:06.69,Subtitle,,0,0,0,,对于一个四十岁只有一只手的骑士？\N{\fs20}For a 40-year-old knight with one hand?{\r}
+Dialogue: 0,0:40:07.80,0:40:09.90,Subtitle,,0,0,0,,你凭什么来保护我？\N{\fs20}How can you protect me with that?{\r}
+Dialogue: 0,0:40:09.93,0:40:10.78,Subtitle,,0,0,0,,我现在用左手了 陛下\N{\fs20}I use my left hand now, Your Grace.{\r}
+Dialogue: 0,0:40:11.53,0:40:13.77,Subtitle,,0,0,0,,更加具有挑战性\N{\fs20}Makes for more of a contest.{\r}
+Dialogue: 0,0:40:31.35,0:40:33.45,Subtitle,,0,0,0,,你曾去过弥林吗？\N{\fs20}Have you ever been to Meereen?{\r}
+Dialogue: 0,0:40:33.49,0:40:35.92,Subtitle,,0,0,0,,克拉兹尼大人带我去过几次 陛下\N{\fs20}Several times, Your Grace, with Master Kraznys.{\r}
+Dialogue: 0,0:40:35.96,0:40:37.36,Subtitle,,0,0,0,,然后呢？\N{\fs20}And?{\r}
+Dialogue: 0,0:40:37.39,0:40:39.56,Subtitle,,0,0,0,,据说弥林为了造大金字塔\N{\fs20}They say 1,000 slaves died{\r}
+Dialogue: 0,0:40:39.59,0:40:41.40,Subtitle,,0,0,0,,死了一千个奴隶\N{\fs20}building the Great Pyramid of Meereen.{\r}
+Dialogue: 0,0:40:41.43,0:40:43.66,Subtitle,,0,0,0,,如今一支曾是奴隶的大军\N{\fs20}And now an army of former slaves{\r}
+Dialogue: 0,0:40:43.70,0:40:46.07,Subtitle,,0,0,0,,正向她进军\N{\fs20}is marching to her gates.{\r}
+Dialogue: 0,0:40:46.10,0:40:48.30,Subtitle,,0,0,0,,你觉得善主大人们会害怕么？\N{\fs20}You think the Great Masters are worried?{\r}
+Dialogue: 0,0:40:48.34,0:40:51.31,Subtitle,,0,0,0,,如果他们够聪明就应该害怕 陛下\N{\fs20}If they're smart, Your Grace.{\r}
+Dialogue: 0,0:40:54.84,0:40:57.31,Subtitle,,0,0,0,,你的职责是给军队殿后\N{\fs20}You were told to ride at the back of the train.{\r}
+Dialogue: 0,0:40:57.35,0:40:59.08,Subtitle,,0,0,0,,是的 女王\N{\fs20}Yes, my queen.{\r}
+Dialogue: 0,0:40:59.11,0:41:01.88,Subtitle,,0,0,0,,不过我有要事欲谈\N{\fs20}But I need to speak to you about something important.{\r}
+Dialogue: 0,0:41:01.92,0:41:04.85,Subtitle,,0,0,0,,战略事宜\N{\fs20}A matter of strategy.{\r}
+Dialogue: 0,0:41:08.89,0:41:10.39,Subtitle,,0,0,0,,陛下\N{\fs20}Your Grace.{\r}
+Dialogue: 0,0:41:14.13,0:41:16.60,Subtitle,,0,0,0,,好吧 什么战略事宜？\N{\fs20}All right, what is this matter of strategy?{\r}
+Dialogue: 0,0:41:19.47,0:41:21.57,Subtitle,,0,0,0,,这是一支薄暮玫瑰\N{\fs20}A dusk rose.{\r}
+Dialogue: 0,0:41:21.60,0:41:24.00,Subtitle,,0,0,0,,要不你别骑马了跟在军队后面散步吧\N{\fs20}Would you like to walk at the back of the train instead of riding?{\r}
+Dialogue: 0,0:41:24.04,0:41:27.04,Subtitle,,0,0,0,,这支名为淑女缎带\N{\fs20}And this one's called lady's lace.{\r}
+Dialogue: 0,0:41:27.08,0:41:29.14,Subtitle,,0,0,0,,干脆鞋也脱了光脚走吧\N{\fs20}Would you like to walk without shoes?{\r}
+Dialogue: 0,0:41:29.18,0:41:31.41,Subtitle,,0,0,0,,要统治一方 您必须了解它\N{\fs20}You have to know a land to rule it.{\r}
+Dialogue: 0,0:41:31.45,0:41:33.55,Subtitle,,0,0,0,,植物 河流\N{\fs20}Its plants, its rivers,{\r}
+Dialogue: 0,0:41:33.58,0:41:36.28,Subtitle,,0,0,0,,道路 人民\N{\fs20}its roads, its people.{\r}
+Dialogue: 0,0:41:36.32,0:41:38.69,Subtitle,,0,0,0,,薄暮玫瑰茶可缓解黄热病\N{\fs20}Dusk rose tea eases fever.{\r}
+Dialogue: 0,0:41:38.72,0:41:40.45,Subtitle,,0,0,0,,弥林人都知道这点\N{\fs20}Everyone in Meereen knows that.{\r}
+Dialogue: 0,0:41:40.49,0:41:42.79,Subtitle,,0,0,0,,尤其是专做这种茶的奴隶\N{\fs20}Especially the slaves who have to make the tea.{\r}
+Dialogue: 0,0:41:42.82,0:41:44.32,Subtitle,,0,0,0,,如果你想让他们追随你\N{\fs20}If you want them to follow you,{\r}
+Dialogue: 0,0:41:44.36,0:41:45.99,Subtitle,,0,0,0,,你得融入他们的世界\N{\fs20}you have to become a part of their world.{\r}
+Dialogue: 0,0:41:46.03,0:41:47.39,Subtitle,,0,0,0,,战略\N{\fs20}Strategy.{\r}
+Dialogue: 0,0:41:50.33,0:41:52.23,Subtitle,,0,0,0,,鹰身女妖的黄金\N{\fs20}Harpy's Gold.{\r}
+Dialogue: 0,0:41:52.27,0:41:53.87,Subtitle,,0,0,0,,这种花不能泡茶\N{\fs20}No tea from this one.{\r}
+Dialogue: 0,0:41:53.90,0:41:56.17,Subtitle,,0,0,0,,美丽却有毒\N{\fs20}Beautiful but poisonous.{\r}
+Dialogue: 0,0:42:02.71,0:42:04.71,Subtitle,,0,0,0,,你还真是个投机者\N{\fs20}You are a gambler, aren't you?{\r}
+Dialogue: 0,0:42:12.25,0:42:14.39,Subtitle,,0,0,0,,陛下\N{\fs20}Your Grace.{\r}
+Dialogue: 0,0:42:45.92,0:42:49.26,Subtitle,,0,0,0,,从此处到弥林 每隔一里都以此为标记\N{\fs20}There's one on every mile marker between here and Meereen.{\r}
+Dialogue: 0,0:42:49.29,0:42:52.59,Subtitle,,0,0,0,,到弥林还有几里？\N{\fs20}How many miles are there between here and Meereen?{\r}
+Dialogue: 0,0:42:52.63,0:42:56.03,Subtitle,,0,0,0,,163 陛下\N{\fs20}163, Your Grace.{\r}
+Dialogue: 0,0:42:56.06,0:42:58.20,Subtitle,,0,0,0,,我将下令派遣人马先行 逐一埋葬前方的尸体\N{\fs20}I'll tell our men to ride ahead and bury them.{\r}
+Dialogue: 0,0:42:58.23,0:42:59.73,Subtitle,,0,0,0,,您无须目睹这番景象\N{\fs20}You don't need to see this.{\r}
+Dialogue: 0,0:42:59.77,0:43:02.84,Subtitle,,0,0,0,,我不准你下此命令\N{\fs20}You will do no such thing.{\r}
+Dialogue: 0,0:43:02.87,0:43:06.57,Subtitle,,0,0,0,,我要亲眼看看每一张脸\N{\fs20}I will see each and every one of their faces.{\r}
+Dialogue: 0,0:43:08.08,0:43:10.84,Subtitle,,0,0,0,,埋葬她之前 把项圈拿掉\N{\fs20}Remove her collar before you bury her.{\r}
+Dialogue: 0,0:43:17.75,0:43:19.52,Subtitle,,0,0,0,,她就在那\N{\fs20}There she is.{\r}
+Dialogue: 0,0:43:19.55,0:43:21.89,Subtitle,,0,0,0,,是啊 她就在那\N{\fs20}Yes, there she is.{\r}
+Dialogue: 0,0:43:23.32,0:43:26.16,Subtitle,,0,0,0,,- 所以？ - 你发过誓\N{\fs20}- And? - You made a promise.{\r}
+Dialogue: 0,0:43:26.23,0:43:29.40,Subtitle,,0,0,0,,发誓把史塔克家的闺女还给她母亲 现在她母亲已经死了\N{\fs20}To return the Stark girls to their mother who is now dead.{\r}
+Dialogue: 0,0:43:29.43,0:43:31.00,Subtitle,,0,0,0,,发誓保护她们安全\N{\fs20}To keep them safe.{\r}
+Dialogue: 0,0:43:31.03,0:43:33.00,Subtitle,,0,0,0,,说起艾莉亚·史塔克 自从她父亲被砍头\N{\fs20}Well, Arya Stark hasn't been seen{\r}
+Dialogue: 0,0:43:33.03,0:43:34.70,Subtitle,,0,0,0,,就再也不见她踪影\N{\fs20}since her father was killed.{\r}
+Dialogue: 0,0:43:34.74,0:43:37.37,Subtitle,,0,0,0,,你认为她在哪？ 我打赌她是死了\N{\fs20}Where do you think she is? My money's on dead.{\r}
+Dialogue: 0,0:43:37.41,0:43:39.51,Subtitle,,0,0,0,,死不失为一种安全 你说呢？\N{\fs20}There's a certain safety in death, wouldn't you say?{\r}
+Dialogue: 0,0:43:39.54,0:43:42.81,Subtitle,,0,0,0,,而现下珊莎·史塔克已是珊莎·兰尼斯特\N{\fs20}And Sansa Stark is now Sansa Lannister.{\r}
+Dialogue: 0,0:43:42.84,0:43:44.64,Subtitle,,0,0,0,,情况有点复杂啊\N{\fs20}Bit of a complication.{\r}
+Dialogue: 0,0:43:44.68,0:43:47.21,Subtitle,,0,0,0,,再复杂你也发过誓\N{\fs20}A complication does not release you from a vow.{\r}
+Dialogue: 0,0:43:47.25,0:43:49.45,Subtitle,,0,0,0,,你想让我怎样？绑架我弟妹？\N{\fs20}What do you want me to do? Kidnap my sister-in-law?{\r}
+Dialogue: 0,0:43:49.52,0:43:52.19,Subtitle,,0,0,0,,然后把她带去哪？除了这儿 她在哪儿能更安全？\N{\fs20}And take her where? Where would she be safer than here?{\r}
+Dialogue: 0,0:43:52.22,0:43:54.02,Subtitle,,0,0,0,,看着我的眼睛 告诉我\N{\fs20}Look me in the eye and tell me{\r}
+Dialogue: 0,0:43:54.06,0:43:56.36,Subtitle,,0,0,0,,你真的认为她在君临会安全吗？\N{\fs20}that you think she'll be safe in King's Landing.{\r}
+Dialogue: 0,0:44:02.23,0:44:05.47,Subtitle,,0,0,0,,你确定我们不是亲戚？\N{\fs20}Are you sure we're not related?{\r}
+Dialogue: 0,0:44:05.50,0:44:07.77,Subtitle,,0,0,0,,自从我回来 每个我见到的兰尼斯特\N{\fs20}Ever since I've returned, every Lannister I've seen{\r}
+Dialogue: 0,0:44:07.80,0:44:09.40,Subtitle,,0,0,0,,都对我不依不饶\N{\fs20}has been a miserable pain in my ass.{\r}
+Dialogue: 0,0:44:09.44,0:44:10.94,Subtitle,,0,0,0,,也许你也是个兰尼斯特\N{\fs20}Maybe you're a Lannister, too.{\r}
+Dialogue: 0,0:44:10.97,0:44:13.81,Subtitle,,0,0,0,,就算长得不像 你也有兰尼斯特的头发\N{\fs20}You've got the hair for it if not the looks.{\r}
+Dialogue: 0,0:45:04.96,0:45:07.33,Subtitle,,0,0,0,,别怕\N{\fs20}It's all right.{\r}
+Dialogue: 0,0:45:07.36,0:45:09.46,Subtitle,,0,0,0,,别怕 别怕\N{\fs20}It's all right. It's all right.{\r}
+Dialogue: 0,0:45:11.27,0:45:13.70,Subtitle,,0,0,0,,- 你喝醉了 - 是的\N{\fs20}- You're drunk. - Yes.{\r}
+Dialogue: 0,0:45:13.73,0:45:16.20,Subtitle,,0,0,0,,我有的是原因把自己灌醉\N{\fs20}I have good reason to be.{\r}
+Dialogue: 0,0:45:16.24,0:45:20.04,Subtitle,,0,0,0,,我曾是一名骑士 现在成了个弄臣\N{\fs20}Once I was a knight. Now I'm only a fool.{\r}
+Dialogue: 0,0:45:21.74,0:45:23.98,Subtitle,,0,0,0,,您不记得我了？\N{\fs20}Don't you know me?{\r}
+Dialogue: 0,0:45:26.11,0:45:29.48,Subtitle,,0,0,0,,唐托斯爵士 国王的命名日\N{\fs20}Ser Dontos. The king's nameday celebration.{\r}
+Dialogue: 0,0:45:29.52,0:45:31.79,Subtitle,,0,0,0,,对不起 我不该忘记的\N{\fs20}I'm sorry. I should have remembered.{\r}
+Dialogue: 0,0:45:31.82,0:45:33.85,Subtitle,,0,0,0,,您不必抱歉\N{\fs20}I can't accept your apology.{\r}
+Dialogue: 0,0:45:33.89,0:45:37.36,Subtitle,,0,0,0,,也许我成了个弄臣 但因为您 至少我还活着\N{\fs20}I may be a fool, but I'm a living fool, thanks to you.{\r}
+Dialogue: 0,0:45:37.39,0:45:39.76,Subtitle,,0,0,0,,换谁都会出手相救的\N{\fs20}Anyone would have done the same.{\r}
+Dialogue: 0,0:45:39.79,0:45:41.73,Subtitle,,0,0,0,,但是只有您救了我\N{\fs20}But only you did.{\r}
+Dialogue: 0,0:45:41.76,0:45:44.26,Subtitle,,0,0,0,,我永远无法报答您\N{\fs20}I can never repay you.{\r}
+Dialogue: 0,0:45:44.30,0:45:47.63,Subtitle,,0,0,0,,您救了我的命 但是这个\N{\fs20}You gave me my life. But this,{\r}
+Dialogue: 0,0:45:47.67,0:45:50.90,Subtitle,,0,0,0,,这个比我的命还要珍贵\N{\fs20}this is worth more than my life.{\r}
+Dialogue: 0,0:45:52.91,0:45:56.28,Subtitle,,0,0,0,,这是我祖母留给母亲的祖传珠宝\N{\fs20}It belonged to my mother and her mother before her.{\r}
+Dialogue: 0,0:45:56.31,0:45:58.18,Subtitle,,0,0,0,,霍拉德家族也曾强大气派\N{\fs20}House Hollard was strong once.{\r}
+Dialogue: 0,0:45:58.21,0:46:00.21,Subtitle,,0,0,0,,繁荣昌盛\N{\fs20}House on the rise.{\r}
+Dialogue: 0,0:46:00.25,0:46:02.78,Subtitle,,0,0,0,,往昔的荣耀 却只剩下这个了\N{\fs20}That's all that's left of those days,{\r}
+Dialogue: 0,0:46:02.82,0:46:06.65,Subtitle,,0,0,0,,就因为像我这样 悲哀又肥胖的酒鬼\N{\fs20}thanks to a few sad, fat drunks like me.{\r}
+Dialogue: 0,0:46:06.69,0:46:08.62,Subtitle,,0,0,0,,我不能收下这个\N{\fs20}I can't take it.{\r}
+Dialogue: 0,0:46:08.66,0:46:11.73,Subtitle,,0,0,0,,你非常 非常的好心 但是我不能\N{\fs20}It's very, very kind of you, but I can't.{\r}
+Dialogue: 0,0:46:11.76,0:46:13.93,Subtitle,,0,0,0,,我除了这个一无所有\N{\fs20}I don't have anything else left.{\r}
+Dialogue: 0,0:46:13.96,0:46:16.46,Subtitle,,0,0,0,,这就是我的全部身家了\N{\fs20}That's all.{\r}
+Dialogue: 0,0:46:16.50,0:46:18.20,Subtitle,,0,0,0,,收下它 戴上它\N{\fs20}Take it. Wear it.{\r}
+Dialogue: 0,0:46:18.23,0:46:20.80,Subtitle,,0,0,0,,让我的名字从这个世界消失之前\N{\fs20}Let my name have one more moment in the sun{\r}
+Dialogue: 0,0:46:20.84,0:46:23.07,Subtitle,,0,0,0,,哪怕再享有一次荣光也好\N{\fs20}before it disappears from the world.{\r}
+Dialogue: 0,0:46:27.11,0:46:29.94,Subtitle,,0,0,0,,我会骄傲地戴着它 唐托斯爵士\N{\fs20}I'll wear it with pride, Ser Dontos.{\r}
+Dialogue: 0,0:46:29.98,0:46:32.25,Subtitle,,0,0,0,,嗯\N{\fs20}Yeah.{\r}
+Dialogue: 0,0:46:58.61,0:47:00.21,Subtitle,,0,0,0,,什么时候我也能有一匹马？\N{\fs20}When am I going to get a horse of my own?{\r}
+Dialogue: 0,0:47:00.24,0:47:02.54,Subtitle,,0,0,0,,小姑娘想要小马了\N{\fs20}The little lady wants a pony.{\r}
+Dialogue: 0,0:47:02.55,0:47:05.40,Subtitle,,0,0,0,,小姑娘想要离你的体臭远一点\N{\fs20}The little lady wants away from your stench.{\r}
+Dialogue: 0,0:47:05.41,0:47:08.32,Subtitle,,0,0,0,,马可不是伸手就有\N{\fs20}Horses aren't easy to come by.{\r}
+Dialogue: 0,0:47:08.35,0:47:09.35,Subtitle,,0,0,0,,就算有了\N{\fs20}Even if they were,{\r}
+Dialogue: 0,0:47:09.38,0:47:11.28,Subtitle,,0,0,0,,你认为我会让你自己骑吗？\N{\fs20}you think I'm gonna put you on your own horse?{\r}
+Dialogue: 0,0:47:12.12,0:47:15.59,Subtitle,,0,0,0,,我就指望着拿你来换几个钱了 还能放你跑了不成？\N{\fs20}Watch the only thing of value I've got in the world ride away?{\r}
+Dialogue: 0,0:47:15.62,0:47:18.46,Subtitle,,0,0,0,,你为什么没有钱？\N{\fs20}Why don't you have any money?{\r}
+Dialogue: 0,0:47:18.49,0:47:21.03,Subtitle,,0,0,0,,你离开乔佛里之前什么都没偷吗？\N{\fs20}Didn't you steal anything from Joffrey before you left?{\r}
+Dialogue: 0,0:47:21.06,0:47:23.03,Subtitle,,0,0,0,,没有\N{\fs20}No.{\r}
+Dialogue: 0,0:47:23.06,0:47:25.10,Subtitle,,0,0,0,,你脑子不怎么好使吧？\N{\fs20}You're not very smart, are you?{\r}
+Dialogue: 0,0:47:25.13,0:47:27.07,Subtitle,,0,0,0,,我不是小偷\N{\fs20}I'm not a thief.{\r}
+Dialogue: 0,0:47:27.10,0:47:29.10,Subtitle,,0,0,0,,你能下得了手杀小孩子\N{\fs20}You're fine with murdering little boys,{\r}
+Dialogue: 0,0:47:29.14,0:47:31.00,Subtitle,,0,0,0,,却高贵得没法行窃？\N{\fs20}but thieving is beneath you?{\r}
+Dialogue: 0,0:47:31.04,0:47:33.71,Subtitle,,0,0,0,,我也有自己的原则\N{\fs20}A man's got to have a code.{\r}
+Dialogue: 0,0:47:33.74,0:47:36.18,Subtitle,,0,0,0,,你认为我会跑掉\N{\fs20}You think I'm gonna escape?{\r}
+Dialogue: 0,0:47:36.21,0:47:38.21,Subtitle,,0,0,0,,我能跑哪去？\N{\fs20}Where would I go?{\r}
+Dialogue: 0,0:47:38.25,0:47:40.18,Subtitle,,0,0,0,,我自己连天黑都撑不到\N{\fs20}I'd be dead by nightfall without you.{\r}
+Dialogue: 0,0:47:40.21,0:47:42.68,Subtitle,,0,0,0,,我家人都不在了 我没有人可以依靠\N{\fs20}My family's gone. I've got no one.{\r}
+Dialogue: 0,0:47:43.78,0:47:45.99,Subtitle,,0,0,0,,你在鹰巢城有个姨妈\N{\fs20}You've got an aunt in the Vale.{\r}
+Dialogue: 0,0:47:46.02,0:47:49.22,Subtitle,,0,0,0,,你的莱莎姨妈有的是钱 我要拿你换赎金\N{\fs20}Your rich Aunt Lysa. After I sell you to her,{\r}
+Dialogue: 0,0:47:49.26,0:47:51.26,Subtitle,,0,0,0,,也许她还能剩不少\N{\fs20}maybe she'll have enough left over{\r}
+Dialogue: 0,0:47:51.29,0:47:53.43,Subtitle,,0,0,0,,给你买匹马 满足你的小愿望\N{\fs20}to buy you that pony you want so much.{\r}
+Dialogue: 0,0:47:56.56,0:47:59.83,Subtitle,,0,0,0,,我饿了 你也饿了\N{\fs20}I'm hungry. You're hungry.{\r}
+Dialogue: 0,0:47:59.87,0:48:02.40,Subtitle,,0,0,0,,五匹马 五个人\N{\fs20}Five horses, five men.{\r}
+Dialogue: 0,0:48:02.44,0:48:05.97,Subtitle,,0,0,0,,饿着肚子我可不好杀这么多人\N{\fs20}More than I feel like killing on an empty stomach.{\r}
+Dialogue: 0,0:48:12.75,0:48:14.58,Subtitle,,0,0,0,,我认识他\N{\fs20}I know him.{\r}
+Dialogue: 0,0:48:14.62,0:48:17.35,Subtitle,,0,0,0,,矮个子那个 他叫波利佛\N{\fs20}The small one. His name is Polliver.{\r}
+Dialogue: 0,0:48:17.39,0:48:20.49,Subtitle,,0,0,0,,是他把我们抓到赫伦堡的\N{\fs20}He captured us and took us to Harrenhal.{\r}
+Dialogue: 0,0:48:22.79,0:48:24.69,Subtitle,,0,0,0,,他杀了罗米\N{\fs20}He killed Lommy.{\r}
+Dialogue: 0,0:48:24.76,0:48:26.49,Subtitle,,0,0,0,,罗米又他妈是个什么东西？\N{\fs20}What the fuck's a Lommy?{\r}
+Dialogue: 0,0:48:26.53,0:48:29.06,Subtitle,,0,0,0,,是我朋友\N{\fs20}He was my friend.{\r}
+Dialogue: 0,0:48:29.10,0:48:32.07,Subtitle,,0,0,0,,波利佛偷了我的剑 刺穿了他的脖子\N{\fs20}Polliver stole my sword and put it right through his neck.{\r}
+Dialogue: 0,0:48:34.47,0:48:35.57,Subtitle,,0,0,0,,他还带着呢\N{\fs20}He's still got it.{\r}
+Dialogue: 0,0:48:35.60,0:48:37.34,Subtitle,,0,0,0,,带着啥？\N{\fs20}Got what?{\r}
+Dialogue: 0,0:48:37.37,0:48:39.24,Subtitle,,0,0,0,,我的剑 缝衣针\N{\fs20}My sword Needle.{\r}
+Dialogue: 0,0:48:39.27,0:48:43.11,Subtitle,,0,0,0,,缝衣针？你连剑都命名\N{\fs20}Needle? Of course you named your sword.{\r}
+Dialogue: 0,0:48:43.14,0:48:44.44,Subtitle,,0,0,0,,很多人都给剑命名的\N{\fs20}Lots of people name their swords.{\r}
+Dialogue: 0,0:48:44.48,0:48:46.61,Subtitle,,0,0,0,,一群娘娘腔\N{\fs20}Lots of cunts.{\r}
+Dialogue: 0,0:48:51.99,0:48:54.62,Subtitle,,0,0,0,,你干什—— 快回来\N{\fs20}What are you-- get back here.{\r}
+Dialogue: 0,0:48:54.66,0:48:56.26,Subtitle,,0,0,0,,那把剑是我哥哥给我的\N{\fs20}My brother gave me that sword.{\r}
+Dialogue: 0,0:48:56.29,0:48:58.99,Subtitle,,0,0,0,,- 快回来 - 他杀了我的朋友\N{\fs20}- Get back here. - He killed my friend.{\r}
+Dialogue: 0,0:48:59.03,0:49:00.76,Subtitle,,0,0,0,,我不管他把你朋友吃了还是如何\N{\fs20}I don't care if he ate your friend.{\r}
+Dialogue: 0,0:49:00.80,0:49:02.73,Subtitle,,0,0,0,,我们不能进去\N{\fs20}We're not going in there.{\r}
+Dialogue: 0,0:49:06.33,0:49:09.04,Subtitle,,0,0,0,,得了吧 别反抗了\N{\fs20}Come on, give it up.{\r}
+Dialogue: 0,0:49:13.24,0:49:15.34,Subtitle,,0,0,0,,过来\N{\fs20}Come here.{\r}
+Dialogue: 0,0:49:15.38,0:49:18.45,Subtitle,,0,0,0,,- 让我摸摸那 - 先别碰她\N{\fs20}- Let's have a feel there. - Leave it.{\r}
+Dialogue: 0,0:49:47.64,0:49:49.58,Subtitle,,0,0,0,,过来\N{\fs20}Come here.{\r}
+Dialogue: 0,0:49:51.58,0:49:53.41,Subtitle,,0,0,0,,求求你 她是个好姑娘\N{\fs20}Please, she's a good girl.{\r}
+Dialogue: 0,0:49:53.45,0:49:55.05,Subtitle,,0,0,0,,闭上嘴巴给我们多倒点酒\N{\fs20}Shut your mouth and pour us more ale{\r}
+Dialogue: 0,0:49:55.08,0:49:57.52,Subtitle,,0,0,0,,心情好的话我们就在这儿干干她 不至于带走\N{\fs20}and we may not take her with us when we're done with her.{\r}
+Dialogue: 0,0:50:02.36,0:50:04.42,Subtitle,,0,0,0,,我认识你\N{\fs20}I know you.{\r}
+Dialogue: 0,0:50:07.13,0:50:08.83,Subtitle,,0,0,0,,这不是猎狗嘛\N{\fs20}You're the Hound.{\r}
+Dialogue: 0,0:50:11.10,0:50:12.87,Subtitle,,0,0,0,,倒点酒给我们的新朋友\N{\fs20}Pour our new friend some ale.{\r}
+Dialogue: 0,0:50:15.90,0:50:19.61,Subtitle,,0,0,0,,什么风把你吹到这么北的地方来了？\N{\fs20}What brings you so far north?{\r}
+Dialogue: 0,0:50:19.64,0:50:21.21,Subtitle,,0,0,0,,你不也是么\N{\fs20}I could ask the same of you.{\r}
+Dialogue: 0,0:50:21.24,0:50:22.28,Subtitle,,0,0,0,,你们在这干什么？\N{\fs20}What are you doing up here?{\r}
+Dialogue: 0,0:50:22.31,0:50:23.91,Subtitle,,0,0,0,,服从国王的命令守护王国和平呗\N{\fs20}Just keeping the king's peace.{\r}
+Dialogue: 0,0:50:23.94,0:50:25.68,Subtitle,,0,0,0,,没这必要 战争结束了\N{\fs20}No need. The war's over.{\r}
+Dialogue: 0,0:50:25.71,0:50:29.08,Subtitle,,0,0,0,,我听说了 史坦尼斯在黑水河战败\N{\fs20}So I've heard. Stannis defeated at the Blackwater.{\r}
+Dialogue: 0,0:50:29.12,0:50:31.12,Subtitle,,0,0,0,,罗柏·史塔克在孪河城被杀\N{\fs20}Robb Stark killed at the Twins.{\r}
+Dialogue: 0,0:50:31.15,0:50:32.39,Subtitle,,0,0,0,,而我又在干吗呢？\N{\fs20}And where am I for all of it?{\r}
+Dialogue: 0,0:50:32.42,0:50:34.49,Subtitle,,0,0,0,,还不是当你哥哥的狗腿子\N{\fs20}Stuck with your brother.{\r}
+Dialogue: 0,0:50:34.52,0:50:37.09,Subtitle,,0,0,0,,- 无意冒犯 - 我不介意\N{\fs20}- Meaning no offense. - None taken.{\r}
+Dialogue: 0,0:50:37.12,0:50:38.79,Subtitle,,0,0,0,,魔山 他很不错\N{\fs20}He's good, the Mountain is.{\r}
+Dialogue: 0,0:50:38.83,0:50:40.29,Subtitle,,0,0,0,,做着他擅长的事\N{\fs20}Best at what he does.{\r}
+Dialogue: 0,0:50:40.33,0:50:43.60,Subtitle,,0,0,0,,但是天天拷问啊 拷问啊 拷问啊 拷问啊\N{\fs20}But torture, torture, torture, torture.{\r}
+Dialogue: 0,0:50:43.63,0:50:46.37,Subtitle,,0,0,0,,你天天拿锤子折磨人\N{\fs20}You spend enough time putting the hammer to people,{\r}
+Dialogue: 0,0:50:46.40,0:50:49.44,Subtitle,,0,0,0,,慢慢就像木匠做椅子一样\N{\fs20}you start to feel like a carpenter making chairs.{\r}
+Dialogue: 0,0:50:49.47,0:50:51.54,Subtitle,,0,0,0,,乐趣全无了\N{\fs20}Drains the fun right out of it.{\r}
+Dialogue: 0,0:50:51.57,0:50:52.84,Subtitle,,0,0,0,,生活没点乐子怎么成啊？\N{\fs20}And what's life without a little fun?{\r}
+Dialogue: 0,0:50:56.41,0:50:58.51,Subtitle,,0,0,0,,用不着我告诉你怎么找乐子 不是吗？\N{\fs20}But I don't need to tell you that, eh?{\r}
+Dialogue: 0,0:51:00.31,0:51:03.12,Subtitle,,0,0,0,,她还行 我上过更好的\N{\fs20}She's all right. I've had better.{\r}
+Dialogue: 0,0:51:06.12,0:51:08.72,Subtitle,,0,0,0,,跟你说啊\N{\fs20}You know what?{\r}
+Dialogue: 0,0:51:08.76,0:51:10.59,Subtitle,,0,0,0,,你应该跟我们走\N{\fs20}You should come with us.{\r}
+Dialogue: 0,0:51:10.62,0:51:14.49,Subtitle,,0,0,0,,这帮家伙老好了 他们总是藏着点什么东西\N{\fs20}His kind, they've always got something hidden away somewhere.{\r}
+Dialogue: 0,0:51:14.53,0:51:17.46,Subtitle,,0,0,0,,金子 银子 女儿\N{\fs20}Gold, silver, more daughters.{\r}
+Dialogue: 0,0:51:17.50,0:51:19.97,Subtitle,,0,0,0,,只要能撬开他们的嘴 总有好东西\N{\fs20}Always something if you know how to make them talk.{\r}
+Dialogue: 0,0:51:20.00,0:51:22.50,Subtitle,,0,0,0,,从这回君临的路上 这些人有的是\N{\fs20}And there's plenty of him between here and King's Landing.{\r}
+Dialogue: 0,0:51:22.54,0:51:24.24,Subtitle,,0,0,0,,你也能干得很好\N{\fs20}You could do well for yourself.{\r}
+Dialogue: 0,0:51:24.27,0:51:26.07,Subtitle,,0,0,0,,我们已经尝到了甜头\N{\fs20}We certainly have been.{\r}
+Dialogue: 0,0:51:29.38,0:51:31.64,Subtitle,,0,0,0,,我不会回君临的\N{\fs20}I'm not going to King's Landing.{\r}
+Dialogue: 0,0:51:31.68,0:51:34.35,Subtitle,,0,0,0,,好好想想 我们想做什么都成\N{\fs20}Think about it. We could do whatever we like{\r}
+Dialogue: 0,0:51:34.38,0:51:37.18,Subtitle,,0,0,0,,不管去哪\N{\fs20}wherever we go.{\r}
+Dialogue: 0,0:51:37.22,0:51:39.15,Subtitle,,0,0,0,,现在这是国王的颜色了\N{\fs20}These are the king's colors.{\r}
+Dialogue: 0,0:51:39.19,0:51:41.15,Subtitle,,0,0,0,,没人敢档国王的道\N{\fs20}No one's standing in his way now.{\r}
+Dialogue: 0,0:51:41.19,0:51:44.36,Subtitle,,0,0,0,,没人能拦着我们\N{\fs20}Which means no one's standing in ours.{\r}
+Dialogue: 0,0:51:45.79,0:51:47.63,Subtitle,,0,0,0,,去他妈的国王\N{\fs20}Fuck the king.{\r}
+Dialogue: 0,0:51:57.50,0:51:59.94,Subtitle,,0,0,0,,当我听说乔佛里的狗夹起尾巴\N{\fs20}When I heard that Joffrey's dog had tucked tail{\r}
+Dialogue: 0,0:51:59.97,0:52:02.08,Subtitle,,0,0,0,,从黑水河之战逃之夭夭\N{\fs20}and run from the Battle of the Blackwater,{\r}
+Dialogue: 0,0:52:02.11,0:52:04.18,Subtitle,,0,0,0,,我当时还不信\N{\fs20}I didn't believe it.{\r}
+Dialogue: 0,0:52:04.21,0:52:06.91,Subtitle,,0,0,0,,- 可你就在我面前 - 在你面前\N{\fs20}- But here you are. - Here I am.{\r}
+Dialogue: 0,0:52:06.95,0:52:09.55,Subtitle,,0,0,0,,那边的鸡 给我来一只\N{\fs20}Bring me one of those chickens.{\r}
+Dialogue: 0,0:52:09.58,0:52:11.72,Subtitle,,0,0,0,,- 你付得起钱吗？ - 你付钱了吗？\N{\fs20}- You got money to pay for it? - You paid for it?{\r}
+Dialogue: 0,0:52:11.75,0:52:14.15,Subtitle,,0,0,0,,没\N{\fs20}No.{\r}
+Dialogue: 0,0:52:14.19,0:52:15.96,Subtitle,,0,0,0,,但我们是国王的人\N{\fs20}But we're the king's men.{\r}
+Dialogue: 0,0:52:17.22,0:52:19.53,Subtitle,,0,0,0,,那么 你有钱没有？\N{\fs20}So, you got money?{\r}
+Dialogue: 0,0:52:19.56,0:52:21.36,Subtitle,,0,0,0,,一毛钱都没有\N{\fs20}Not a penny.{\r}
+Dialogue: 0,0:52:21.40,0:52:24.26,Subtitle,,0,0,0,,我还是要那只鸡\N{\fs20}I'll still take that chicken.{\r}
+Dialogue: 0,0:52:24.30,0:52:26.00,Subtitle,,0,0,0,,这么说吧\N{\fs20}Tell you what.{\r}
+Dialogue: 0,0:52:26.07,0:52:28.07,Subtitle,,0,0,0,,我们做笔交易\N{\fs20}We'll trade you.{\r}
+Dialogue: 0,0:52:28.10,0:52:30.27,Subtitle,,0,0,0,,我们的一只鸡 换你的一只鸡\N{\fs20}One of our little chickens for one of yours.{\r}
+Dialogue: 0,0:52:30.30,0:52:33.27,Subtitle,,0,0,0,,让我们上上你那朋友\N{\fs20}Give us a go at your friend.{\r}
+Dialogue: 0,0:52:34.61,0:52:36.68,Subtitle,,0,0,0,,洛厄尔喜欢强上野一点儿的姑娘\N{\fs20}Lowell there likes them a bit broken in.{\r}
+Dialogue: 0,0:52:44.08,0:52:46.42,Subtitle,,0,0,0,,你很能扯嘴皮子\N{\fs20}You're a talker.{\r}
+Dialogue: 0,0:52:47.69,0:52:51.06,Subtitle,,0,0,0,,听人扯嘴皮子让我口渴\N{\fs20}Listening to talkers makes me thirsty.{\r}
+Dialogue: 0,0:53:05.87,0:53:08.68,Subtitle,,0,0,0,,啊\N{\fs20}Ah.{\r}
+Dialogue: 0,0:53:08.71,0:53:10.68,Subtitle,,0,0,0,,还让我更饿了\N{\fs20}And hungry.{\r}
+Dialogue: 0,0:53:10.74,0:53:13.45,Subtitle,,0,0,0,,我想来两只鸡了\N{\fs20}Think I'll take two chickens.{\r}
+Dialogue: 0,0:53:21.92,0:53:24.62,Subtitle,,0,0,0,,你好像还没搞清楚情况\N{\fs20}You don't seem to understand the situation.{\r}
+Dialogue: 0,0:53:24.66,0:53:27.29,Subtitle,,0,0,0,,你再从那逼样的烂嘴里\N{\fs20}I understand that if any more words{\r}
+Dialogue: 0,0:53:27.33,0:53:29.96,Subtitle,,0,0,0,,蹦出一个字\N{\fs20}come pouring out of your cunt mouth,{\r}
+Dialogue: 0,0:53:30.00,0:53:33.70,Subtitle,,0,0,0,,我就吃光这屋子里的每只鸡\N{\fs20}I'm gonna have to eat every fucking chicken in this room.{\r}
+Dialogue: 0,0:53:33.73,0:53:36.47,Subtitle,,0,0,0,,你这辈子都为国王而活\N{\fs20}You lived your life for the king.{\r}
+Dialogue: 0,0:53:37.94,0:53:40.14,Subtitle,,0,0,0,,就为了几只鸡去死吗？\N{\fs20}You're gonna die for some chickens?{\r}
+Dialogue: 0,0:53:41.48,0:53:43.38,Subtitle,,0,0,0,,总有人会死\N{\fs20}Someone is.{\r}
+Dialogue: 0,0:55:40.63,0:55:43.63,Subtitle,,0,0,0,,你腿怎么了 小子？\N{\fs20}Something wrong with your leg, boy?{\r}
+Dialogue: 0,0:55:43.66,0:55:45.63,Subtitle,,0,0,0,,什么 你说什么？\N{\fs20}What? What do you mean?{\r}
+Dialogue: 0,0:55:45.67,0:55:48.63,Subtitle,,0,0,0,,能走吗？ 还是得我来背你？\N{\fs20}Can you walk? I've got to carry you?{\r}
+Dialogue: 0,0:55:48.67,0:55:50.47,Subtitle,,0,0,0,,背我？\N{\fs20}Carry me?{\r}
+Dialogue: 0,0:55:52.67,0:55:54.57,Subtitle,,0,0,0,,不错的小剑\N{\fs20}Fine little blade.{\r}
+Dialogue: 0,0:55:59.78,0:56:02.38,Subtitle,,0,0,0,,或许我能用它剔牙\N{\fs20}Maybe I'll pick my teeth with it.{\r}
+Dialogue: 0,0:00:00.00,0:00:00.00,Titles,,0,0,150,,{\fad(500,500)\fs18\fn微软雅黑\bord1\fs24\b1}前剧提要{\b0} {\fs18}
+Dialogue: 0,0:56:42.81,0:56:53.28,Titles,,0,0,20,,{\fad(4500,2000)\fs18\fn微软雅黑\bord1\c&HFFFFFF&\fs18\b1}衣柜字幕组出品{\b0} {\fs18}
+
